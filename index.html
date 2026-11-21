@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="AI Start v1.2 — Resursă educațională deschisă pentru clasa a IX-a/X-a, 10 lecții de alfabetizare în inteligență artificială cu evaluare sumativă și certificat de participare. Autor: prof. Drăgan Elena.">
+<meta name="description" content="AI Start v1.3 — Resursă educațională deschisă pentru clasa a IX-a/X-a, 10 lecții de alfabetizare în inteligență artificială cu evaluare sumativă și certificat de participare. Autor: prof. Drăgan Elena.">
 <meta name="author" content="Elena Drăgan">
 <meta name="keywords" content="inteligență artificială, AI, LLM, prompt engineering, deepfake, bias algoritmic, GDPR, AI Act, DigComp, clasa IX, RED">
 <title>🧠 AI Start — Inteligență artificială, clasa a IX-a / X-a</title>
@@ -888,6 +888,9 @@ code, pre, .mono { font-family: var(--font-mono); }
 .callout .ico { font-size: 1.3rem; line-height: 1; flex-shrink: 0; }
 .callout p { margin: 0; }
 .callout strong { display: block; margin-bottom: 4px; }
+details.callout strong { display: inline; margin: 0; }
+details.callout summary { margin-bottom: 8px; }
+details.callout:not([open]) summary { margin-bottom: 0; }
 .callout.tip { background: var(--info-soft); border-color: color-mix(in srgb, var(--info) 30%, transparent); color: var(--text); }
 .callout.warn { background: var(--warn-soft); border-color: color-mix(in srgb, var(--warn) 35%, transparent); color: var(--text); }
 .callout.danger { background: var(--danger-soft); border-color: color-mix(in srgb, var(--danger) 35%, transparent); color: var(--text); }
@@ -2059,7 +2062,7 @@ h2 { font-weight: 600; }
     <span class="meta-badge"><span class="key">Domeniu</span> <strong>Informatică / TIC</strong></span>
     <span class="meta-badge"><span class="key">Durată</span> <strong>50–60 min/lecție</strong></span>
     <span class="meta-badge"><span class="key">Versiunea</span> <strong>1.2</strong></span>
-    <span class="meta-badge"><span class="key">Actualizat</span> <strong>august 2026</strong></span>
+    <span class="meta-badge"><span class="key">Actualizat</span> <strong>noiembrie 2026</strong></span>
   </div>
 </section>
 
@@ -2112,7 +2115,7 @@ h2 { font-weight: 600; }
     <li>4.2. Aplicarea principiilor de integritate academică în utilizarea IA în școală.</li>
   </ul>
 
-  <span class="ref">Aliniere: Cadrul european DigComp 2.2 (OMEC 6466/2024) · Planuri-cadru liceu OMEC 4350/2025 · Programe școlare OMEC 6930/2025 și 3716/2026 · Regulamentul (UE) 2024/1689 (AI Act) · Recomandat ca opțional / CDȘ „Alfabetizare în inteligență artificială”</span>
+  <span class="ref">Aliniere: Cadrul de competențe digitale pentru elevi, elaborat pe modelul DigComp 2.2 (OME nr. 6466/2024) · Planuri-cadru liceu OMEC 4350/2025 · Programe școlare OMEC 6930/2025 și 3716/2026 · Regulamentul (UE) 2024/1689 (AI Act) · Recomandat ca opțional / CDȘ „Alfabetizare în inteligență artificială”</span>
 </section>
 
 <h2 class="section-title">📚 Lecțiile cursului</h2>
@@ -2205,7 +2208,7 @@ h2 { font-weight: 600; }
   <div class="license-line">
     <strong>CC BY-NC-SA 4.0</strong> · Resursă educațională deschisă. Poate fi utilizată, adaptată și redistribuită în scop educațional, cu menționarea autorului.
   </div>
-  <div class="version-line">v1.2 · 08.2026</div>
+  <div class="version-line">v1.3 · 11.2026</div>
 </div>
 
 </div>
@@ -2232,7 +2235,7 @@ h2 { font-weight: 600; }
     <ul>
       <li><strong>OMEC nr. 4350/2025</strong> — privind aprobarea planurilor-cadru pentru învățământul liceal cu frecvență zi;</li>
       <li><strong>OMEC nr. 6930/2025</strong> și <strong>OMEC nr. 3716/2026</strong> — privind aprobarea programelor școlare pentru disciplinele obligatorii din trunchiul comun;</li>
-      <li><strong>OMEC nr. 6466/2024</strong> — privind adoptarea Cadrului de competențe digitale pentru elevi (DigComp 2.2);</li>
+      <li><strong>OME nr. 6466/2024</strong> — pentru aprobarea Cadrului de competențe digitale pentru elevi, elaborat pe modelul DigComp 2.2;</li>
       <li><strong>Regulamentul (UE) 2024/1689</strong> al Parlamentului European și al Consiliului din 13 iunie 2024 privind inteligența artificială (AI Act) — referință-cadru pentru lecția 8.</li>
     </ul>
     <p><strong>Poziționare didactică recomandată:</strong> resursa este concepută ca <em>opțional / Curriculum la Decizia Școlii (CDȘ)</em> cu titlul „Alfabetizare în inteligență artificială”, parcurs în 1 oră/săptămână, semestrial sau anual. Poate fi utilizată complementar la disciplina TIC din trunchiul comun, pentru aprofundarea capitolelor „Societate digitală”, „Comunicare și colaborare digitală” și „Evaluarea critică a informației”.</p>
@@ -2381,8 +2384,9 @@ h2 { font-weight: 600; }
     </ul>
     <p><strong>Sursă:</strong> South China Morning Post, comunicate Hong Kong Police Force, raportare CNN — februarie 2024.</p>
 
-    <h3>🇷🇴 Studiu de caz românesc — voice cloning în „escrocheria nepotului” (2023–2025)</h3>
-    <p><strong>Ce s-a întâmplat:</strong> În perioada 2023–2025, Inspectoratul General al Poliției Române și DNSC au raportat o intensificare a fraudelor de tip „nepotul la nevoie” îmbunătățite cu clonare de voce prin IA. Atacatorii folosesc <strong>câteva secunde de înregistrare audio</strong> (de pe TikTok, Instagram Reels, mesaje WhatsApp interceptate) pentru a clona vocea unui copil sau nepot și a suna persoane în vârstă pentru a cere bani „urgent, am avut un accident”.</p>
+    <h3>🇷🇴 Studiu de caz românesc — voice cloning în metoda „Accidentul” (avertisment MAI, 2026)</h3>
+    <p><strong>Ce s-a întâmplat:</strong> În februarie 2026, Ministerul Afacerilor Interne a avertizat public că escrocii folosesc inteligența artificială pentru a clona vocea copiilor, pornind de la <strong>câteva secunde de înregistrare audio</strong> de pe rețelele sociale. Părinții sunt sunați și aud „vocea copilului” într-un scenariu de urgență (un accident, o reținere, o problemă gravă), care cere bani imediat. Metoda „Accidentul” este veche; nouă este vocea clonată, care o face mult mai convingătoare.</p>
+    <p style="font-size: 0.88rem; color: var(--text-muted);">Sursa: avertismentul Ministerului Afacerilor Interne (videoclip publicat pe TikTok, @mai.gov), preluat de Edupedu.ro: <a href="https://www.edupedu.ro/atentionare-mai-escrocii-folosesc-inteligenta-artificiala-pentru-a-clona-vocea-copiilor-si-a-cere-bani-parintilor-la-telefon/" target="_blank" rel="noopener">„Atenționare MAI: Escrocii folosesc inteligența artificială pentru a clona vocea copiilor și a cere bani părinților, la telefon”</a>, 6.02.2026. Accesat la 22.11.2026.</p>
     <p><strong>Cum funcționează:</strong> Tehnologia de voice cloning (ex: ElevenLabs, Resemble AI) poate genera voce sintetică convingătoare din <strong>3–10 secunde de audio</strong>. Atacatorul construiește un scenariu plauzibil de criză (accident, arest, spital) și solicită transferuri rapide.</p>
     <p><strong>Lecții pentru elevi:</strong></p>
     <ul>
@@ -2491,7 +2495,7 @@ h2 { font-weight: 600; }
 
   <section class="biblio">
     <h2>📚 Bibliografie și surse</h2>
-    <p style="font-size: 0.9rem; color: var(--text-muted);">Surse citate în format ISO 690 simplificat. Data accesării: 05.06.2026.</p>
+    <p style="font-size: 0.9rem; color: var(--text-muted);">Surse citate în format ISO 690 simplificat. Data accesării: 20.11.2026.</p>
     <ul>
       <li><strong>Parlamentul European și Consiliul Uniunii Europene</strong>. <em>Regulamentul (UE) 2024/1689 privind inteligența artificială (AI Act)</em>. Jurnalul Oficial al UE, L 1689, 12.7.2024. Disponibil la: <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj">eur-lex.europa.eu/eli/reg/2024/1689/oj</a></li>
       <li><strong>Parlamentul European și Consiliul Uniunii Europene</strong>. <em>Regulamentul (UE) 2016/679 (GDPR)</em>. Disponibil la: <a href="https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32016R0679">eur-lex.europa.eu</a></li>
@@ -2505,15 +2509,17 @@ h2 { font-weight: 600; }
       <li><strong>OECD</strong> (2023). <em>OECD AI Principles</em>. Disponibil la: <a href="https://oecd.ai/en/ai-principles">oecd.ai/en/ai-principles</a></li>
       <li><strong>ENISA</strong> — European Union Agency for Cybersecurity. <em>Multilayer Framework for Good Cybersecurity Practices for AI</em>. 2023.</li>
       <li><strong>DNSC</strong> — Directoratul Național de Securitate Cibernetică. <em>Alerte privind utilizarea malițioasă a IA</em>. Disponibil la: <a href="https://www.dnsc.ro">dnsc.ro</a></li>
+      <li><strong>Lefter, Ș.</strong> (6.02.2026). <em>Atenționare MAI: Escrocii folosesc inteligența artificială pentru a clona vocea copiilor și a cere bani părinților, la telefon</em>. Edupedu.ro. Disponibil la: <a href="https://www.edupedu.ro/atentionare-mai-escrocii-folosesc-inteligenta-artificiala-pentru-a-clona-vocea-copiilor-si-a-cere-bani-parintilor-la-telefon/">edupedu.ro</a></li>
       <li><strong>Grother, P., Ngan, M., Hanaoka, K.</strong> (2019). <em>Face Recognition Vendor Test (FRVT) Part 3: Demographic Effects</em>. NISTIR 8280. National Institute of Standards and Technology.</li>
       <li><strong>United States District Court, S.D.N.Y.</strong> <em>Mata v. Avianca, Inc.</em>, nr. 22-cv-1461. Opinie privind sancțiunile, 22 iunie 2023.</li>
       <li><strong>Chauvin, G. et al.</strong> (2004). <em>A giant planet candidate near a young brown dwarf</em>. Astronomy &amp; Astrophysics, 425, L29–L32. [Prima imagine a unei exoplanete.]</li>
       <li><strong>Coulter, M., Bensinger, G.</strong> (februarie 2023). <em>Alphabet shares dive after Google AI chatbot Bard flubs answer in ad</em>. Reuters.</li>
+      <li><strong>High Court of Justice of England and Wales</strong>. <em>Getty Images (US) Inc. and others v. Stability AI Ltd.</em> [2025] EWHC 2863 (Ch), 4.11.2025.</li>
       <li><strong>Parlamentul European și Consiliul Uniunii Europene</strong>. <em>Regulamentul (UE) 2026/1744 („Digital Omnibus on AI”), de modificare a Regulamentului (UE) 2024/1689</em>. Jurnalul Oficial al UE, 24.7.2026.</li>
       <li><strong>Anderson, L. W., Krathwohl, D. R.</strong> (2001). <em>A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom's Taxonomy of Educational Objectives</em>. Longman. ISBN 978-0-321-08405-7.</li>
       <li><strong>Ministerul Educației și Cercetării</strong>. <em>Planuri-cadru pentru învățământul liceal cu frecvență zi</em>, OMEC nr. 4350/2025. Disponibil la: <a href="https://www.edu.ro">edu.ro</a></li>
       <li><strong>Ministerul Educației și Cercetării</strong>. <em>Programe școlare pentru disciplinele obligatorii cu alocare orară în trunchiul comun</em>, OMEC nr. 6930/2025 și OMEC nr. 3716/2026.</li>
-      <li><strong>Ministerul Educației și Cercetării</strong>. <em>Cadrul de competențe digitale pentru elevi (DigComp 2.2)</em>, OMEC nr. 6466/2024.</li>
+      <li><strong>Ministerul Educației</strong>. <em>Cadrul de competențe digitale pentru elevi</em>, aprobat prin OME nr. 6466/30.08.2024.</li>
     </ul>
   </section>
 
@@ -2538,7 +2544,7 @@ licențiat sub CC BY-NC-SA 4.0.</pre>
 
     <h3>™️ Mărci comerciale</h3>
     <p>Denumirile de produse și companii menționate în această resursă (ChatGPT, Claude, Gemini, ElevenLabs, Midjourney, Copilot și altele) sunt mărci ale titularilor respectivi. Sunt utilizate exclusiv <strong>nominativ</strong>, în scop didactic descriptiv, fără a sugera vreo afiliere sau aprobare.</p>
-    <p style="font-size: 0.9rem; color: var(--text-muted);">CC BY-NC-SA 4.0 © 2026 prof. Drăgan Elena. Resursă elaborată în nume personal.<br>Versiunea 1.2 · august 2026.</p>
+    <p style="font-size: 0.9rem; color: var(--text-muted);">CC BY-NC-SA 4.0 © 2026 prof. Drăgan Elena. Resursă elaborată în nume personal.<br>Versiunea 1.3 · noiembrie 2026.</p>
   </section>
 
   <nav class="lesson-nav">
@@ -2629,7 +2635,7 @@ licențiat sub CC BY-NC-SA 4.0.</pre>
         <ul>
           <li>Face <strong>un singur lucru</strong>, dar îl face foarte bine.</li>
           <li>Exemple: <em>recunoaște pisica în poză</em>, <em>traduce engleză-română</em>, <em>recomandă următorul videoclip pe YouTube</em>.</li>
-          <li>Toată IA care există <strong>azi</strong> este narrow. Inclusiv ChatGPT, deși pare flexibil — e antrenat pentru limbaj, nu „înțelege” lumea.</li>
+          <li>Niciun sistem care există <strong>azi</strong> nu este AGI. Modelele de tip ChatGPT sunt mult mai flexibile decât IA specializată clasică — unii cercetători le consideră deja „generale” într-un sens limitat —, dar nu au capacitățile cognitive generale ale unui om.</li>
         </ul>
       </div>
       <div class="match-col">
@@ -2653,7 +2659,7 @@ licențiat sub CC BY-NC-SA 4.0.</pre>
       Vei întâlni doi termeni care sună aproape identic, dar nu înseamnă același lucru:<br><br>
       <strong>AGI (Artificial General Intelligence)</strong> — un concept <em>științific și filosofic</em>: o IA cu capacități cognitive de nivel uman în orice domeniu. <strong>Nu există.</strong><br><br>
       <strong>GPAI (General-Purpose AI / IA de uz general)</strong> — o categorie <em>juridică</em>, definită în AI Act: un model antrenat pe date foarte variate, care poate fi folosit pentru multe sarcini diferite. <strong>Există și este reglementat.</strong> ChatGPT, Claude și Gemini sunt GPAI.<br><br>
-      Deci un model poate fi, în același timp, <strong>narrow</strong> în sens cognitiv (nu înțelege lumea, prezice tokeni) și <strong>general-purpose</strong> în sens juridic (poate fi folosit la traduceri, cod, rezumate, poezie). Nu e o contradicție — sunt două grile de lectură diferite. Vom folosi termenul GPAI în lecția 8, când discutăm AI Act.</p>
+      Deci un model poate fi, în același timp, <strong>departe de AGI</strong> în sens cognitiv (prezice tokeni, nu are capacitățile generale ale unui om) și <strong>general-purpose</strong> în sens juridic (poate fi folosit la traduceri, cod, rezumate, poezie). Nu e o contradicție — sunt două grile de lectură diferite. Vom folosi termenul GPAI în lecția 8, când discutăm AI Act.</p>
     </div>
   </section>
 
@@ -2707,7 +2713,7 @@ licențiat sub CC BY-NC-SA 4.0.</pre>
           <div class="match-list">
             <div class="match-item" data-col="R" data-key="dl">Recunoașterea pisicilor în pozele de pe telefon</div>
             <div class="match-item" data-col="R" data-key="agi">Robotul din „Ex Machina” (ficțiune)</div>
-            <div class="match-item" data-col="R" data-key="ml">Filtrul anti-spam din Gmail (algoritm Bayes)</div>
+            <div class="match-item" data-col="R" data-key="ml">Un filtru anti-spam clasic (algoritm Bayes naiv)</div>
             <div class="match-item" data-col="R" data-key="llm">Claude, ChatGPT, Gemini</div>
           </div>
         </div>
@@ -2720,15 +2726,15 @@ licențiat sub CC BY-NC-SA 4.0.</pre>
     <h3>🧠 Activitatea 3 <span class="activity-badge">Quiz</span></h3>
 
     <div class="quiz-q" data-q="L1Q2">
-      <div class="q-text">2) Toate IA-urile existente în 2026 (inclusiv Claude, ChatGPT) sunt:</div>
+      <div class="q-text">2) Ce afirmație descrie corect sistemele IA existente în 2026 (inclusiv Claude, ChatGPT)?</div>
       <div class="choices">
-        <label class="choice"><input type="radio" name="L1Q2" value="0"> IA narrow — specializate pe sarcini, chiar dacă par flexibile</label>
-        <label class="choice"><input type="radio" name="L1Q2" value="1"> Sisteme hibride, în parte specializate și în parte generale</label>
+        <label class="choice"><input type="radio" name="L1Q2" value="0"> Nu sunt AGI: oricât de flexibile par, nu au capacitățile cognitive generale ale unui om</label>
+        <label class="choice"><input type="radio" name="L1Q2" value="1"> Au conștiință proprie, dar companiile o limitează prin reguli de funcționare</label>
         <label class="choice"><input type="radio" name="L1Q2" value="2"> AGI — sisteme cu capacități cognitive generale, de nivel uman</label>
         <label class="choice"><input type="radio" name="L1Q2" value="3"> ASI — superinteligență care depășește omul în orice domeniu</label>
       </div>
-      <div class="ok-msg" data-msg="Corect. Chiar dacă un LLM pare să facă „orice”, este antrenat pentru o sarcină îngustă: predicția de text."></div>
-      <div class="bad-msg" data-msg="Răspunsul corect este „IA narrow”. AGI și ASI sunt concepte teoretice — niciun sistem existent nu se încadrează acolo."></div>
+      <div class="ok-msg" data-msg="Corect. Niciun sistem actual nu este AGI. Un LLM pare să facă „orice”, dar are limite clare: halucinează, nu verifică adevărul și nu învață singur din experiență."></div>
+      <div class="bad-msg" data-msg="Răspunsul corect este primul. AGI și ASI rămân concepte teoretice, iar afirmațiile despre „conștiința” chatboților nu sunt susținute de dovezi."></div>
     </div>
 
     <div class="quiz-q" data-q="L1Q3" style="margin-top:18px;">
@@ -2750,7 +2756,7 @@ licențiat sub CC BY-NC-SA 4.0.</pre>
       <span class="ico" aria-hidden="true">✨</span>
       <p>
         <strong>IA</strong> ⊃ <strong>ML</strong> ⊃ <strong lang="en">Deep Learning</strong> ⊃ <strong>LLM</strong>. Fiecare e o specializare a celei dinaintea.<br>
-        <strong>Toate IA-urile actuale sunt narrow</strong> — specializate. AGI nu există încă.<br>
+        <strong>Nicio IA actuală nu este AGI</strong> — chiar dacă unele par foarte flexibile.<br>
         <strong>IA generativă</strong> creează conținut (text, imagini, voce); <strong>IA discriminativă</strong> clasifică.<br>
         <strong>Hype-ul exagerează.</strong> IA nu „vrea”, nu „decide” — procesează input și generează output statistic.
       </p>
@@ -2908,7 +2914,7 @@ licențiat sub CC BY-NC-SA 4.0.</pre>
     <p>Concret, asta înseamnă:</p>
     <ul>
       <li>LLM-ul poate spune că <em>„apa fierbe la 100°C la nivelul mării”</em> sau că <em>„apa fierbe la 50°C la nivelul mării”</em> cu aceeași încredere — pentru că ambele sunt secvențe de tokeni gramatical corecte. Nu „știe” care e adevărată; doar reproduce ce a văzut în antrenament.</li>
-      <li>Nu are simțul „nu știu”. Dacă-l întrebi ceva imposibil de știut, va inventa un răspuns care <em>sună bine</em>. Asta numim <strong>halucinație</strong> — întreaga lecție 4 e despre asta.</li>
+      <li>Nu are un simț fiabil al lui „nu știu”. Modelele mai noi spun uneori „nu sunt sigur”, dar nu de fiecare dată: dacă-l întrebi ceva imposibil de știut, poate inventa un răspuns care <em>sună bine</em>. Asta numim <strong>halucinație</strong> — întreaga lecție 4 e despre asta.</li>
       <li>Nu „raționează” în sens uman. Poate părea că face matematică sau logică, dar de fapt prezice secvențe de tokeni care, în datele de antrenament, urmează altor astfel de secvențe. De aceea greșește des la matematică simplă cu numere mari.</li>
     </ul>
 
@@ -2954,9 +2960,9 @@ licențiat sub CC BY-NC-SA 4.0.</pre>
     <div class="quiz-q" data-q="L2Q3" style="margin-top:18px;">
       <div class="q-text">3) De ce LLM-urile pot afirma cu încredere și lucruri false?</div>
       <div class="choices">
-        <label class="choice"><input type="radio" name="L2Q3" value="0"> Pentru că a fost antrenat să dea mereu un răspuns, chiar fără informația necesară</label>
-        <label class="choice"><input type="radio" name="L2Q3" value="1"> Pentru că nu are acces la internet ca să verifice afirmația când răspunde</label>
-        <label class="choice"><input type="radio" name="L2Q3" value="2"> Pentru că datele de antrenament conțineau și texte false, pe care le reproduce</label>
+        <label class="choice"><input type="radio" name="L2Q3" value="0"> Pentru că au fost antrenate să dea mereu un răspuns, chiar fără informația necesară</label>
+        <label class="choice"><input type="radio" name="L2Q3" value="1"> Pentru că nu au acces la internet ca să verifice afirmația când răspund</label>
+        <label class="choice"><input type="radio" name="L2Q3" value="2"> Pentru că datele de antrenament conțineau și texte false, pe care le reproduc</label>
         <label class="choice"><input type="radio" name="L2Q3" value="3"> Pentru că evaluează cât de probabilă e o secvență de cuvinte, nu cât de adevărată</label>
       </div>
       <div class="ok-msg" data-msg="Exact. Modelul optimizează plauzibilitatea lingvistică, nu adevărul. „Apa fierbe la 50°C” e o propoziție perfect corectă gramatical."></div>
@@ -3092,7 +3098,7 @@ Acum pentru cuvântul: "rapid"</div>
 
     <ul>
       <li><strong>Nu cere fapte critice fără verificare.</strong> „Câte calorii are un măr?” — răspunsul poate fi greșit. Verifică pe surse autoritare (USDA, autorități medicale).</li>
-      <li><strong>Nu da date personale (CNP, parole, IBAN) în prompt.</strong> Multe LLM-uri folosesc conversațiile pentru îmbunătățirea modelelor (în funcție de setări). Dacă vrei să exemplifici, folosește date fictive.</li>
+      <li><strong>Nu da date personale (CNP, parole, IBAN) în prompt.</strong> Multe servicii IA folosesc conversațiile pentru îmbunătățirea modelelor (în funcție de setări). Dacă vrei să exemplifici, folosește date fictive.</li>
       <li><strong>Nu cere ce trebuie să faci tu</strong> dacă scopul e să înveți. La temă: explicarea unui concept dificil = OK. Scrierea integrală a temei tale = nu (vezi L9).</li>
       <li><strong>Nu te baza pe IA pentru calcule.</strong> LLM-urile greșesc des la matematică cu numere mari. Pentru calcule, folosește un calculator sau cere-i să-ți scrie un mic program Python.</li>
       <li><strong>Atenție la limba română.</strong> LLM-urile sunt mai bune în engleză. Dacă lucrezi pe ceva tehnic, prompt-ul în engleză poate da rezultate mai bune — chiar dacă răspunsul îl ceri în română.</li>
@@ -3266,17 +3272,17 @@ Acum pentru cuvântul: "rapid"</div>
         <span class="halluc-tag"></span>
       </div>
       <div class="halluc-item">
-        <div><strong>Afirmația 4:</strong> Eminescu a fost ziarist la „Timpul” și prieten cu Ion Creangă, întâlnit prin Junimea — societatea literară condusă de Titu Maiorescu.</div>
+        <div><strong>Afirmația 4:</strong> Eminescu a fost ziarist la „Timpul” și prieten cu Ion Creangă, pe care l-a cunoscut la Iași și l-a adus la Junimea — societatea literară condusă de Titu Maiorescu.</div>
         <span class="halluc-tag"></span>
       </div>
     </div>
 
     <p class="halluc-status" style="margin-top:14px; font-weight: 600;">Verificate: 0/4</p>
 
-    <div class="callout" style="margin-top: 14px;">
-      <span class="ico" aria-hidden="true">💡</span>
+    <details class="callout" style="margin-top: 14px; display: block;">
+      <summary style="cursor: pointer;">💡 <strong>Explicație</strong> — deschide după ce ai găsit halucinația</summary>
       <p><strong>De ce e halucinația plauzibilă?</strong> Premiile Nobel au fost <strong>acordate pentru prima dată în 1901</strong>, la doisprezece ani după moartea lui Eminescu (1889) — deci nici cronologic afirmația nu stă în picioare. Dar sună credibil. Combinația „mare poet român + premiu major” e statistic verosimilă. Asta face halucinarea greu de detectat fără verificare.</p>
-    </div>
+    </details>
   </div>
 
   <section class="lesson-section">
@@ -3286,7 +3292,7 @@ Acum pentru cuvântul: "rapid"</div>
       <li><strong>Regula „2 surse independente”</strong>: dacă IA îți dă un fapt critic (data, statistică, citat), verifică-l pe minim 2 surse externe — preferabil oficiale (instituții, baze de date, jurnale academice).</li>
       <li><strong>Regula „caută citatul direct”</strong>: dacă IA citează un articol/carte, copiază titlul în Google Scholar sau pe site-ul publicației. Dacă nu apare, foarte probabil e inventat.</li>
       <li><strong>Regula „întreabă diferit”</strong>: pune aceeași întrebare reformulată sau în engleză. Dacă răspunsurile diferă mult, modelul nu e sigur — caută extern.</li>
-      <li><strong>Regula „cere IA să-și pună la îndoială răspunsul”</strong>: după ce-ți răspunde, întreabă-l: „Care sunt elementele din răspunsul tău de care nu ești sigur și aș trebui să le verific?”. Modelul va admite zonele incerte.</li>
+      <li><strong>Regula „cere IA să-și pună la îndoială răspunsul”</strong>: după ce-ți răspunde, întreabă-l: „Care sunt elementele din răspunsul tău de care nu ești sigur și aș trebui să le verific?”. Modelul poate semnala unele zone incerte, dar nu le recunoaște întotdeauna — de aceea această regulă nu înlocuiește verificarea pe surse externe (regula 1).</li>
       <li><strong>Regula „evită zonele de risc”</strong>: nu folosi IA pentru fapte juridice, medicale, financiare specifice persoanei tale — folosește specialiști. IA poate ajuta la <em>înțelegerea generală</em>, nu la decizii.</li>
     </ol>
   </section>
@@ -3493,7 +3499,7 @@ Acum pentru cuvântul: "rapid"</div>
       <li>Defini <strong lang="en">deepfake</strong> și înțelege tipurile (imagine, voce, video).</li>
       <li>Recunoaște semnale concrete de alarmă vizuale/audio.</li>
       <li>Aplica protocoale de verificare în situații suspecte.</li>
-      <li>Analiza două cazuri reale (Hong Kong 2024 și escrocheria nepotului în România).</li>
+      <li>Analiza două cazuri reale (Hong Kong 2024 și metoda „Accidentul” cu voce clonată, în România).</li>
     </ul>
     <div class="outcomes">
       <h3>📌 Rezultate ale învățării:</h3>
@@ -3513,7 +3519,7 @@ Acum pentru cuvântul: "rapid"</div>
     <p>Tipuri principale:</p>
     <ul>
       <li><strong>Imagine sintetică</strong> — fețe care nu există (ex: thispersondoesnotexist.com), peisaje, scene întregi (Midjourney, DALL-E, Stable Diffusion).</li>
-      <li><strong lang="en">Voice cloning</strong> — clonare de voce pe baza unei mostre scurte (3–10 secunde). Tools: ElevenLabs, Resemble AI, Microsoft VALL-E.</li>
+      <li><strong lang="en">Voice cloning</strong> — clonare de voce pe baza unei mostre scurte (3–10 secunde). Exemple: ElevenLabs, Resemble AI; Microsoft VALL-E (model de cercetare, nelansat public).</li>
       <li><strong>Face swap video</strong> — schimbarea feței unei persoane în video.</li>
       <li><strong lang="en">Lip sync</strong> — modificarea mișcărilor buzelor pentru a se potrivi cu un audio diferit.</li>
       <li><strong>Video integral generat</strong> — apariția recentă (Sora, Veo, Runway): scene video întregi, fără filmare reală.</li>
@@ -3532,9 +3538,10 @@ Acum pentru cuvântul: "rapid"</div>
     <p>Un angajat al filialei din Hong Kong a companiei multinaționale Arup a transferat aproximativ <strong>25 de milioane de dolari</strong> către cinci conturi controlate de atacatori. Cauza: o videoconferință în care <strong>toți participanții — inclusiv directorul financiar (CFO) — erau deepfake-uri</strong> generate de IA pe baza materialelor video publice ale acestora.</p>
     <p>Angajatul fusese inițial suspicios după un email „neașteptat” de la CFO. Apelul video, însă, l-a convins: vedea fețele cunoscute, auzea vocile familiare. A executat 15 transferuri către conturi diferite înainte ca frauda să fie descoperită.</p>
 
-    <h3>📞 Cazul „escrocheria nepotului” cu voice cloning (România, 2023–2025)</h3>
-    <p>DNSC (Directoratul Național de Securitate Cibernetică) și IGPR au semnalat în 2023–2025 o intensificare a fraudelor în care atacatorii folosesc <strong>câteva secunde de înregistrare audio</strong> (de pe TikTok, Instagram Reels, mesaje WhatsApp) pentru a clona vocea unui copil sau nepot. Sună apoi persoane în vârstă, în panică simulată: „Bunico, am avut un accident, am nevoie urgent de bani”.</p>
-    <p>Vocea sună exact ca a nepotului — pentru că <em>chiar este</em> vocea lui, sintetizată. Sumele cerute variază de la câteva sute la zeci de mii de lei, transferate prin servicii rapide (Western Union, MoneyGram).</p>
+    <h3>📞 Metoda „Accidentul” cu voce clonată (avertisment MAI, România, 2026)</h3>
+    <p>În februarie 2026, Ministerul Afacerilor Interne (MAI) a avertizat că escrocii folosesc <strong>câteva secunde de înregistrare audio</strong> de pe rețelele sociale pentru a clona vocea copiilor. Îi sună apoi pe părinți, într-un scenariu de urgență: „Am avut un accident… Am nevoie de bani. ACUM!”. Cum spune MAI, <em>panica este scopul</em>.</p>
+    <p>Vocea sună exact ca a copilului, pentru că e sintetizată din înregistrări reale ale lui. Recomandările MAI: opriți-vă, închideți și sunați copilul pe numărul lui real; nu trimiteți bani și nu dați date personale la telefon; limitați expunerea online a copiilor și stabiliți în familie o întrebare de verificare.</p>
+    <p style="font-size: 0.88rem; color: var(--text-muted);">Sursa: avertismentul Ministerului Afacerilor Interne (videoclip publicat pe TikTok, @mai.gov), preluat de Edupedu.ro: <a href="https://www.edupedu.ro/atentionare-mai-escrocii-folosesc-inteligenta-artificiala-pentru-a-clona-vocea-copiilor-si-a-cere-bani-parintilor-la-telefon/" target="_blank" rel="noopener">„Atenționare MAI: Escrocii folosesc inteligența artificială pentru a clona vocea copiilor și a cere bani părinților, la telefon”</a>, 6.02.2026. Accesat la 22.11.2026.</p>
 
     <div class="callout danger">
       <span class="ico" aria-hidden="true">🚨</span>
@@ -3580,7 +3587,7 @@ Acum pentru cuvântul: "rapid"</div>
       <li><strong>Stabilește un „cuvânt-cod” în familie.</strong> O întrebare sau un cuvânt pe care doar voi îl știți. Folosit în orice situație de urgență neașteptată („Ce-am mâncat ultima dată la bunica?”).</li>
       <li><strong>Sună înapoi pe numărul cunoscut.</strong> Nu pe cel care a apelat — pe cel memorat în telefon. Dacă persoana e ocupată, vorbește cu altcineva din familie.</li>
       <li><strong>Limitează expunerea publică a vocii și feței.</strong> Cu cât mai puțin material public există, cu atât e mai greu de clonat.</li>
-      <li><strong>Învață familia (părinți, bunici).</strong> Persoanele în vârstă sunt ținta preferată a escrocheriei nepotului. Vorbește cu ei despre asta — fără să-i sperii, cu exemple concrete.</li>
+      <li><strong>Învață familia (părinți, bunici).</strong> Escrocheriile de tip „Accidentul” îi vizează pe părinți și pe bunici. Vorbește cu ei despre asta — fără să-i sperii, cu exemple concrete.</li>
       <li><strong>Niciodată bani prin servicii rapide la cererea telefonică.</strong> Western Union, MoneyGram, vouchere Steam — odată trimiși, recuperarea e aproape imposibilă.</li>
     </ol>
   </section>
@@ -3602,7 +3609,7 @@ Acum pentru cuvântul: "rapid"</div>
     </div>
 
     <div class="quiz-q" data-q="L6Q2" style="margin-top:18px;">
-      <div class="q-text">2) Cineva îți sună bunicii cu vocea ta și cere bani urgent. Cea mai bună reacție din partea bunicilor este să:</div>
+      <div class="q-text">2) Cineva îți sună bunicii cu vocea ta și cere bani urgent. Ce reacție este cea mai bună din partea bunicilor?</div>
       <div class="choices">
         <label class="choice"><input type="radio" name="L6Q2" value="0"> Să trimită banii imediat: recunosc vocea, iar situația pare urgentă</label>
         <label class="choice"><input type="radio" name="L6Q2" value="1"> Să închidă și să sune înapoi pe numărul memorat, ori să ceară cuvântul-cod</label>
@@ -3708,7 +3715,7 @@ Acum pentru cuvântul: "rapid"</div>
     <h2>📂 2. Trei cazuri documentate</h2>
 
     <h3>⚖️ COMPAS — algoritmul de „risc de recidivă” (SUA, 2016)</h3>
-    <p>COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) a fost un sistem folosit în instanțe americane pentru a evalua probabilitatea ca un acuzat să comită din nou o infracțiune. Folosit pentru decizii de eliberare condiționată, sentințe.</p>
+    <p>COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) este un sistem folosit în instanțe americane pentru a evalua probabilitatea ca un acuzat să comită din nou o infracțiune. Folosit pentru decizii de eliberare condiționată, sentințe.</p>
     <p>În 2016, investigația ProPublica a arătat: COMPAS clasifica <strong>persoanele de culoare drept „risc înalt” greșit, de aproximativ 2 ori mai des</strong> decât persoanele albe (false pozitive). Persoanele albe erau clasificate „risc scăzut” greșit, de aproximativ 2 ori mai des (false negative). Cu alte cuvinte: erori opuse, dar ambele defavorizau persoanele de culoare.</p>
     <p>Producătorul a contestat metodologia ProPublica, susținând că modelul e „calibrat egal” pe alte definiții. Cazul a devenit text fundamental pentru discuția despre echitate algoritmică: <em>nu există o singură definiție matematică a „echitabilului”</em>.</p>
 
@@ -3767,10 +3774,10 @@ Acum pentru cuvântul: "rapid"</div>
     <div class="quiz-q" data-q="L7Q2" style="margin-top:18px;">
       <div class="q-text">2) De ce nu a funcționat tool-ul de recrutare al Amazon?</div>
       <div class="choices">
-        <label class="choice"><input type="radio" name="L7Q2" value="0"> Candidații selectați nu îndeplineau cerințele minime de studii ale companiei</label>
+        <label class="choice"><input type="radio" name="L7Q2" value="0"> A învățat din CV-uri preponderent masculine și a ajuns să penalizeze candidatele</label>
         <label class="choice"><input type="radio" name="L7Q2" value="1"> Sistemul a fost compromis de un atac extern asupra bazei de candidați</label>
         <label class="choice"><input type="radio" name="L7Q2" value="2"> Costurile de operare au depășit economia realizată la procesul de recrutare</label>
-        <label class="choice"><input type="radio" name="L7Q2" value="3"> A învățat din CV-uri preponderent masculine și a ajuns să penalizeze candidatele</label>
+        <label class="choice"><input type="radio" name="L7Q2" value="3"> Candidații selectați nu îndeplineau cerințele minime de studii ale companiei</label>
       </div>
       <div class="ok-msg" data-msg="Exact. Sistemul a învățat să replice dezechilibrul istoric al industriei tehnologice."></div>
       <div class="bad-msg" data-msg="Cauza a fost în date: zece ani de CV-uri preponderent masculine au învățat modelul să depuncteze indiciile feminine, până la penalizarea cuvântului „women's”."></div>
@@ -3780,9 +3787,9 @@ Acum pentru cuvântul: "rapid"</div>
       <div class="q-text">3) Un sistem are „99% acuratețe medie”. Care e întrebarea critică pe care o pui?</div>
       <div class="choices">
         <label class="choice"><input type="radio" name="L7Q3" value="0"> Cât costă implementarea, față de un proces realizat manual?</label>
-        <label class="choice"><input type="radio" name="L7Q3" value="1"> În câte limbi și în câte țări poate funcționa sistemul respectiv?</label>
+        <label class="choice"><input type="radio" name="L7Q3" value="1"> Cum se distribuie eroarea pe grupuri demografice diferite?</label>
         <label class="choice"><input type="radio" name="L7Q3" value="2"> Pe ce volum total de date a fost testat sistemul înainte de lansare?</label>
-        <label class="choice"><input type="radio" name="L7Q3" value="3"> Cum se distribuie eroarea pe grupuri demografice diferite?</label>
+        <label class="choice"><input type="radio" name="L7Q3" value="3"> În câte limbi și în câte țări poate funcționa sistemul respectiv?</label>
       </div>
       <div class="ok-msg" data-msg="Exact. Media ascunde inechitatea — cere întotdeauna desagregarea pe grupuri."></div>
       <div class="bad-msg" data-msg="Întrebarea critică este cea privind distribuția erorii. O acuratețe medie de 99% poate ascunde 60% pe un grup minoritar — exact ce a documentat studiul Gender Shades."></div>
@@ -3909,7 +3916,7 @@ Acum pentru cuvântul: "rapid"</div>
       <table>
         <thead><tr><th>Data</th><th>Ce a devenit aplicabil</th></tr></thead>
         <tbody>
-          <tr><td><strong>2 februarie 2025</strong></td><td>Interdicțiile (practicile cu risc inacceptabil) <strong>și obligația de alfabetizare în IA</strong> (Art. 4)</td></tr>
+          <tr><td><strong>2 februarie 2025</strong></td><td>Interdicțiile (practicile cu risc inacceptabil) <strong>și obligația de alfabetizare în IA</strong> (Art. 4, reformulat în iulie 2026)</td></tr>
           <tr><td><strong>2 august 2025</strong></td><td>Obligațiile pentru modelele de uz general (GPAI), guvernanța și regimul sancțiunilor</td></tr>
           <tr><td><strong>2 august 2026</strong></td><td>Aplicarea generală a regulamentului + <strong>obligațiile de transparență (Art. 50)</strong></td></tr>
           <tr><td><strong>2 decembrie 2026</strong></td><td>Marcarea conținutului generat de IA, pentru sistemele deja aflate pe piață</td></tr>
@@ -3931,7 +3938,7 @@ Acum pentru cuvântul: "rapid"</div>
 
     <div class="callout success">
       <span class="ico" aria-hidden="true">🎓</span>
-      <p><strong>Articolul 4 te privește direct.</strong> Din februarie 2025, AI Act obligă furnizorii și utilizatorii profesionali de sisteme IA să asigure un nivel suficient de <strong>alfabetizare în IA</strong> pentru personalul lor. Cu alte cuvinte: competența pe care o dobândești chiar acum, în această lecție, este cerută prin lege în tot spațiul european. Nu înveți asta „pentru notă” — înveți ceva ce angajatorul tău de peste câțiva ani va fi obligat oricum să te învețe.</p>
+      <p><strong>Articolul 4 te privește direct.</strong> Din februarie 2025, AI Act a cerut furnizorilor și utilizatorilor profesionali de sisteme IA să asigure un nivel suficient de <strong>alfabetizare în IA</strong> pentru personalul lor. Omnibusul din iulie 2026 a reformulat obligația: aceștia trebuie acum să ia măsuri care <em>sprijină</em> alfabetizarea în IA a celor care folosesc sistemele în numele lor. Obligația a rămas, chiar dacă este formulată mai flexibil. Cu alte cuvinte: competența pe care o dobândești chiar acum este considerată importantă prin lege în tot spațiul european. Nu înveți asta „pentru notă” — înveți ceva ce angajatorii vor fi obligați oricum să sprijine.</p>
     </div>
 
     <h3>🗂️ Cele patru categorii de risc</h3>
@@ -3964,14 +3971,14 @@ Acum pentru cuvântul: "rapid"</div>
 
     <div class="callout warn">
       <span class="ico" aria-hidden="true">🕐</span>
-      <p><strong>Notă de actualitate.</strong> Această secțiune reflectă legislația la data de <strong>29 august 2026</strong>. Legislația privind IA se schimbă rapid — calendarul de mai sus a fost deja modificat o dată, în iulie 2026. Verifică textul consolidat pe <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj">eur-lex.europa.eu</a> înainte de a cita aceste date într-o lucrare.</p>
+      <p><strong>Notă de actualitate.</strong> Această secțiune reflectă legislația la data de <strong>20 noiembrie 2026</strong>. Legislația privind IA se schimbă rapid — calendarul de mai sus a fost deja modificat o dată, în iulie 2026. Verifică textul consolidat pe <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj">eur-lex.europa.eu</a> înainte de a cita aceste date într-o lucrare.</p>
     </div>
   </section>
 
   <section class="lesson-section">
     <h2>📚 3. Drepturile de autor — cazul NYT vs OpenAI</h2>
     <p>În decembrie 2023, <strong>The New York Times</strong> a deschis proces împotriva OpenAI și Microsoft. Acuzația principală: OpenAI a folosit articole NYT (protejate de copyright, multe după paywall) pentru antrenarea ChatGPT, fără permisiune și fără plată.</p>
-    <p>NYT a demonstrat că ChatGPT poate <strong>reproduce verbatim</strong> paragrafe întregi din articolele lor, ceea ce ar trebui să fie tehnic imposibil pentru un model care „doar învață statistici”. În aprilie 2025, judecătorul a respins în cea mai mare parte cererea pârâților de respingere a acțiunii, permițând continuarea procesului. La data actualizării acestei lecții (august 2026), cauza se afla în faza de administrare a probelor, fără o hotărâre definitivă privind „fair use”. Procesul a deschis o întrebare fundamentală:</p>
+    <p>NYT a demonstrat că ChatGPT poate <strong>reproduce verbatim</strong> paragrafe întregi din articolele lor, ceea ce ar trebui să fie tehnic imposibil pentru un model care „doar învață statistici”. În martie–aprilie 2025, judecătorul Sidney Stein a respins în cea mai mare parte cererea pârâților de respingere a acțiunii, permițând continuarea procesului. În septembrie 2026, părțile au depus cereri de judecată sumară (<em lang="en">summary judgment</em>) privind „fair use”. La data actualizării acestei lecții (noiembrie 2026) nu exista o hotărâre și nici o dată stabilită pentru proces. Procesul a deschis o întrebare fundamentală:</p>
 
     <div class="callout warn">
       <span class="ico" aria-hidden="true">📖</span>
@@ -3980,7 +3987,7 @@ Acum pentru cuvântul: "rapid"</div>
 
     <p>Alte cazuri similare în desfășurare:</p>
     <ul>
-      <li><strong>Getty Images vs Stability AI</strong> (2023+) — Getty acuză că modelele de generare de imagini au fost antrenate pe pozele lor (inclusiv cu watermark vizibil în generări).</li>
+      <li><strong>Getty Images vs Stability AI</strong> (2023+) — Getty a acuzat că modelul Stable Diffusion a fost antrenat pe fotografiile sale. În Regatul Unit, Înalta Curte a respins în noiembrie 2025 acuzația de încălcare a drepturilor de autor și i-a dat dreptate companiei Getty doar parțial, pentru mărci (watermark-ul Getty apărut în unele imagini generate). Procesul din SUA continuă.</li>
       <li><strong>Authors Guild vs OpenAI</strong> (2023+) — autori (printre care George R.R. Martin, John Grisham) acuză antrenare pe cărțile lor.</li>
       <li><strong>Cazuri în UE</strong> sub Directiva Copyright (2019) — care permite opt-out pentru antrenarea IA, dar tehnic e greu de aplicat.</li>
     </ul>
@@ -4254,10 +4261,10 @@ Acum pentru cuvântul: "rapid"</div>
     <div class="quiz-q" data-q="L9Q1">
       <div class="q-text">1) Care e principiul-test pentru utilizarea etică a IA în școală?</div>
       <div class="choices">
-        <label class="choice"><input type="radio" name="L9Q1" value="0"> Dacă și colegii mei procedează la fel, utilizarea devine acceptabilă</label>
+        <label class="choice"><input type="radio" name="L9Q1" value="0"> Folosesc IA ca să-mi accelerez învățarea sau ca să o evit cu totul?</label>
         <label class="choice"><input type="radio" name="L9Q1" value="1"> Dacă profesorul nu poate dovedi utilizarea, aceasta devine acceptabilă</label>
         <label class="choice"><input type="radio" name="L9Q1" value="2"> Dacă rezultatul final e bun, modul în care l-am obținut nu mai contează</label>
-        <label class="choice"><input type="radio" name="L9Q1" value="3"> Folosesc IA ca să-mi accelerez învățarea sau ca să o evit cu totul?</label>
+        <label class="choice"><input type="radio" name="L9Q1" value="3"> Dacă și colegii mei procedează la fel, utilizarea devine acceptabilă</label>
       </div>
       <div class="ok-msg" data-msg="Exact. Întrebarea-cheie este dacă accelerezi învățarea sau o eviți."></div>
       <div class="bad-msg" data-msg="Criteriul este raportul dintre utilizare și învățare. Celelalte trei variante descriu justificări frecvente — dar niciuna nu spune nimic despre ce ai învățat efectiv."></div>
@@ -4276,7 +4283,7 @@ Acum pentru cuvântul: "rapid"</div>
     </div>
 
     <div class="quiz-q" data-q="L9Q3" style="margin-top:18px;">
-      <div class="q-text">3) Citarea utilizării IA într-un proiect școlar este recomandată pentru că:</div>
+      <div class="q-text">3) De ce este recomandată citarea utilizării IA într-un proiect școlar?</div>
       <div class="choices">
         <label class="choice"><input type="radio" name="L9Q3" value="0"> Pentru că profesorii acordă punctaj suplimentar lucrărilor care declară IA</label>
         <label class="choice"><input type="radio" name="L9Q3" value="1"> Pentru că legea obligă la declararea oricărei utilizări a IA în școală</label>
@@ -4595,7 +4602,7 @@ Acum pentru cuvântul: "rapid"</div>
 
 /* ---------- Dark mode ---------- */
 (function initTheme() {
-  const stored = localStorage.getItem('ais-theme');
+  let stored = null; try { stored = localStorage.getItem('ais-theme'); } catch (e) {}
   const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
   const theme = stored || (prefersDark ? 'dark' : 'light');
   document.documentElement.setAttribute('data-theme', theme);
@@ -4605,7 +4612,7 @@ function toggleTheme() {
   const cur = document.documentElement.getAttribute('data-theme');
   const next = cur === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', next);
-  localStorage.setItem('ais-theme', next);
+  try { localStorage.setItem('ais-theme', next); } catch (e) {}
   const btn = document.querySelector('.theme-toggle');
   if (btn) btn.innerHTML = next === 'dark' ? '☀️ Light' : '🌙 Dark';
 }
@@ -4756,6 +4763,9 @@ function gradeFinalTest(answers) {
 }
 
 /* ---------- Diploma generation (lesson 10) ---------- */
+/* Atkinson Hyperlegible (SIL OFL 1.1), subset latin + diacritice românești, TTF pentru jsPDF */
+const CERT_FONT_R = 'AAEAAAAOAIAAAwBgR0RFRgLtAw0AADcIAAAAZEdQT1OZs7GFAAA3bAAADARHU1VCM/NFOQAAQ3AAAAC6T1MvMmDD/VsAAAFoAAAAYGNtYXDHIcxdAAAEpAAAAeBnYXNwAAAAEAAANwAAAAAIZ2x5ZsfYKpIAAAf0AAAs7mhlYWQvhuuTAAAA7AAAADZoaGVhCIkDfQAAASQAAAAkaG10eGCCHXoAAAHIAAAC3GxvY2GKYpaaAAAGhAAAAXBtYXhwAMUArgAAAUgAAAAgbmFtZSs2QwkAADTkAAAB+nBvc3T/tQA5AAA24AAAACAAAQAAAAEBiUpb86pfDzz1CA8D6AAAAADcbc81AAAAAOcl13T/xv8GBQoDeAAAAAYAAgAAAAAAAAABAAADtv7eAAAFMP/G/rcFCgABAAAAAAAAAAAAAAAAAAAAtwABAAAAtwBYAAcAVAAEAAEAAAAAAAAAAAAAAAAAAgABAAQCFgGQAAUAAAKKArsAAACMAooCuwAAAd8AMQECAAAAAAAAAAAAAAAAgAAADwAAAEIAAAAAAAAAAE5PTkUAwAAgImUDtv7eAAADtgEiAAAAAQAAAAAB8AKcAAAAIAADAg8AMgEYAAACiAA8AZIAKgIlACICPgAqAmYAJgJHADYCVgA8Af4ADwJnADwCVgA8AnIACgJrAEwCkAAyAqEATAI3AEwCJABMAsYAMgKyAEwBngBCAf4ADwJzAEwCGwBMAzQATAKxAEwC1wAyAlkATALxADICagBMAlQAKAIuAAoCsgBMAk0ACgNIAAoCbwAKAlMACgJfACwCDgAmAjYARgH0ACYCNAAmAhsAJgE3AA8CMAAmAiIARgEWAC0A/v/GAeoARgDvAEYDSQBGAiIARgIoACYCNgBGAkAAJgFUAEYB1wAfAUQAFAIYAEQBuQAAAo4AAAHNAAABrQAAAcwAKAGPADUA6wA1AOsANQGOADUBjgA1AY4ANQIdACgCHQAoAbYANQK4ADUFMAAmAjIANQFgACgCQwA1AfwAJgDrADUCMgA1AzoANQMsADUDZAA1AikAKAJaADUCKQAoAggAKAMMADIAzQAmAM0AJgE7AEwBeQAPATsAIQIoADUBjAAKAQwANQEZAEwBLQAoAo8AJgJSACgDnwAmAsEAJgCgACgBLAAyASwAIwGxAEQCWgA1AM0AJgFwACYAzQAmAXkADwE/ACYA6QBMAT8AIgIrACgCSgBGAhIAHwGpADUCRQA1AloANQJDADUCQwA1AbMANQHgACkDIAApAhAANQJaADUCcgAKAnIACgJyAAoCDgAmAg4AJgIOACYCDgAmApAAMgH0ACYCNwBMAjcATAIbACYCGwAmAhsAJgGeAEIBngAtAZ4ALwEWABoBFgAtARb/5AEW/+YCsQBMAtcAMgLXADICsgBMArIATAIiAEYCKAAmAigAJgIoACYCGABEAhgARAIYAEQCcgAKAg4AJgJUACgB1wAfAlQAKAIuAAoCLgAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACmAAPAAAAAAEWAC0B1wAfAUQAFAFEABQAAAAAAAAAAgAAAAMAAAAUAAMAAQAAABQABAHMAAAAYABAAAUAIAAgAC8AOQBAAFoAYAB6AH4AowCnAKsAsQC3ALsAwgDEAMcAyQDLAM8A0QDTANcA2gDcAOIA5ADpAO8A8wD3APoA/AEDAV8BYwIbIBQgGSAeICIgJiAwIKwiSCJgImX//wAAACAAIQAwADoAQQBbAGEAewCjAKcAqwCwALYAuwDBAMQAxwDJAMsAzQDRANMA1gDaANwA4ADkAOcA6wDxAPYA+QD8AQIBXgFiAhggEyAYIBwgICAmIDAgrCJIImAiZP///+EAQP/SAAD/ywAA/8X/9f/R/87/oP+c/5j/lQAA/73/wP/A/7//wf/E/8MAAP++/70AAP+hAAAAAP+pAAD/pf+k/5//RQAAAADgaeAp4CfgJuAj4BrgBN4v3hjeFQABAAAAAAAAAFoAAAAAAAAAAAAAAAAAAAAAAAAAAABSAAAAAAAAAAAAAAAAAAAARgAAAAAARAAAAEYASgAAAFAAAAAAAAAAAABKAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFkAWgBUAFUAVgBXAFgAggCAAJcAfgCDAIYAhACIAIsAjACNAJEAkgCTAJQAnQB/AKYAtAClALMApwC1AAAAAAAAADAARABtALEAzAEEAUEBUwGfAd4B9gIvAl4ChQKbAq8C5wL+AxMDMQNLA1oDdAOKA7wD4gQhBEwElwSoBMYE2AT0BQ4FIwU5BXgFqAXXBgoGQAZfBqMGxAbjBw0HJAc7B3EHkwfJB/gINwhRCJUItAjYCOoJBgkdCTwJUglsCYYJoAnPCfsKJwo7ClYKcgqnCygLQgtuC4gLpgu8C9YMBAw+DJUMqAy7DMwNDg15DZ8NyQ3aDekN+g4NDhkONA5TDmYOlg7sD0cPnw+sD8YP4A/9EBEQKhA2EEwQWhCOEJsQzxD0EUwRsRHWEhkSOBJREmoSmBKkErASyRL2EwITDhMaEyYTMRM8E0gTVBNgE2wTeBOEE5ATmxOnE7ITvhPJE9QT3xPqE/YUAhQOFBoUJhQxFD0USRRUFGAUbBR3FIMUjhSaFKYUshS+FMoU6RUGFSAVUhVnFXwVlxW8Ff8WGhYoFjQWPxZKFncAAwA8//QCTAKoAAsAEwAcAAAFIiY1NDYzMhYVFAY3NjU0JiMiBxMyNwEGBhUUFgFEgYeHgYGHhxsRVVhBKmtFKv74CgpVDLOop7Kyp6izyjxVg4wo/ggtAXsfTCyDjgAAAQAqAAABMAKcAAkAADMRIzUyNjY3MxHcsjBTPQ44AfhDDiop/WQAAAEAIgAAAgMCqAAaAAAzNT4CNTQmIyIGByc2NjMyFhYVFA4CByEVInanWUI7L1EMVBJ4WD5fNzhifkYBcEtXkn87NEAzPRhJVSlOODpvaWczTQABACr/9AICAqgALgAABSImJic3FhYzMjY1NC4DIzUyPgI1NCYjIgYHJzY2MzIWFhUUBgcWFhUUBgYBEENfOAxTC0lAQlUgMjkzEBxBOyVNNT1IClISdVw6Yjw4NUs1RG4MLEotGDRBQz4mMRoMAkwGFS0nNjc+MhhHVyFLPjNSFhdbNUNZLAAAAgAmAAACQAKcAAoADQAAITUhNQEzETMVIxUlMxEBcv60AUtVenr+u/GlTwGo/lhPpfQBNQAAAQA2//QCCQKcACMAAAUiJiYnNxYWMzI2NjU0JiYjIgYHJxMhFSEHNjYzMhYWFRQGBgEcQ144DVIMR0EoRCktRSQ0QgtSKQF//sUXGk0pO2M9Q2wMLEotGDc+JkgzOEYhMRkYAVRRuxoYNmZKTGg0AAIAPP/0AhoCqAAcACgAAAUiJjU0PgIzMhYXByYmIyIGBzY2MzIWFhUUBgYnMjY1NCYjIgYVFBYBL312Gz1kSUpcFlUPOihOUwMXVkM+YTg6aUhCT09CQ09PDKiaR4RpPj4tGR0hjnQnNjpmQz5pP0dXRUVXV0VFVwAAAQAPAAAB3AKcAAYAADMBITUhFQFdASL+kAHN/uoCS1FR/bUAAwA8//QCKwKoABsAJwAzAAAFIiYmNTQ2NyYmNTQ2NjMyFhYVFAYHFhYVFAYGAzI2NTQmIyIGFRQWEzI2NTQmIyIGFRQWATNFcEJENxofMVIyM1IxHxo4Q0JwRiw/PywsPz8sSFVVSEdVVQwvWUBBWxYZRCgyUjExUjIoRBkWW0FAWS8Bkz8uLD4+LC4//rdEOjtGRjs6RAACADwAAAIaAqcAGgAqAAAzMD4CNwYjIiYmNTQ2NjMyFhYVFAcOAwcDMjY2NTQmJiMiBgYVFBYW1RsrMBUZHEFtQUBtQkVsPhIFJDdFJhIrRioqRisqRikpRiY+SSIGQW1CQmxAQW1CLi0MRWJxOAEfKkYqKkYpKUYqKkYqAAACAAoAAAJoAp0ABwAKAAAzEzMTIychBzczAwr7afpkM/7QM1D2ewKd/WOSkuMBWwADAEwAAAJFApwAEAAaACUAADMRITIWFhUUBgcWFhUUBgYjAzMyNjU0JiYjIxEzMjY2NTQmJiMjTAENSVsrJCIyMTFiSb+5MzMXLSK5ySUyGhkzJsgCnDBLKyhOHRpZMDBYOAF+QCYaMB/+AiI1HR0zIQABADL/9AJqAqgAHQAABSImJjU0NjYzMhYXByYmIyIGBhUUFhYzMjY3FwYGAWFfiEhNjF5UhyJSFllBO184NmE+QVkXUiSMDFmcZmibVk5JHi05PHdXVHhAOC4eSk0AAgBMAAACbwKcAAwAGQAAMxEzMh4CFRQOAiMnMzI+AjU0LgIjI0y2UIViNjZihVBYVjRhTS0tTWE0VgKcIUyBX2CBTSFPETNnVVVlMxEAAQBMAAACEQKcAAsAADMRIRUhFSEVIRUhFUwBxf6ZAQn+9wFnApxRy1HeUQABAEwAAAH+ApwACQAAMxEhFSEVIRUhEUwBsv6sAVT+rAKcUctR/tEAAQAy//QCggKoACUAAAUiJiY1NDY2MzIWFwcmJiMiBgYVFBYWMzI+AjU1IzUhESMnBgYBYGCHR02MXlSHI1MWWUE7Xzg1Xz4hRjokwwEcNhkgbwxZnGZom1ZOSR4tOTx3V1R4QBAnRDQWUf6nVDMtAAEATAAAAmYCnAALAAAzETMRIREzESMRIRFMXgFeXl7+ogKc/uQBHP1kAS/+0QABAEIAAAFcApwACwAAMzUzESM1IRUjETMVQl5eARpeXkoCCEpK/fhKAAABAA//9AGyApwAEAAAFyImJzcGFjMyNjY1ETMRFAbgXm4FVwJKMhs2I15wDGVkGUxJGEA8Acf+OG1zAAABAEwAAAJpApwACwAAMxEzEQEzAwEjAwcVTF4BLXX/ARxz6GQCnP6wAVD+6f57AUBu0gAAAQBMAAACEQKcAAUAADMRMxEhFUxeAWcCnP21UQAAAQBMAAAC6AKcAAwAADMRMxMTMxEjEQMjAxFMnLKynF7BXcICnP3eAiL9ZAI6/cYCOv3GAAEATAAAAmUCnAAJAAAzETMBETMRIwERTIsBMF6K/s8CnP3IAjj9ZAI7/cUAAgAy//QCpQKoAA8AHwAABSImJjU0NjYzMhYWFRQGBicyNjY1NCYmIyIGBhUUFhYBa2CMTU2MYGGMTU2MYT1jOjpjPTxjOjpjDFmdZWWbWVmbZWWdWU8+d1dWdz09d1ZXdz4AAAIATAABAjMCnAAMABcAADcRMzIWFhUUBgYjIxERMzI2NjU0JiYjI0zRUn1HR31Sc3sxTi8vTjF7AQKbIFdTUlcf/vcBWg4zNjc0EAACADL/1ALxAqgAFAAoAAAFJwYGIyImJjU0NjYzMhYWFRQGBxclMjcnNxc2NjU0JiYjIgYGFRQWFgKxdSdqQGCMTU2MYGGMTRgXe/56WDmzQKYLCzpjPTxjOjpjLG0lKFmdZWWbWVmbZThjKXMrO6hEnBtBJVZ3PT13Vld3PgACAEwAAAJMApwADwAaAAAzETMyFhYVFAYGBxMjAyMRETMyNjY1NCYmIyNM1FJ9RxxPTs9zy2R9MU8vL08xfQKcHVNQLU42C/7gARn+5wFoDjEzNDAPAAEAKP/0AiwCqAAyAAAFIiYmJzceAjMyNjY1NCYnJy4CNTQ2NjMyFhYXByYmIyIGBhUUFhYXFx4CFRQOAgEoN2hPElcMNkckKEgtPEpVLlk5R3E9L1tJFVYTVS4kQionQSdJM1o4LEpdDCJGNhokLxYaNSgpMBMTDChKPjlQKhs3KxkjJBcuIyEoFwkQDCpMQC5JMRoAAAEACgAAAiQCnAAHAAAzESM1IRUjEejeAhreAktRUf21AAABAEz/9AJmApwAEQAABSImNREzERQWMzI2NREzERQGAVmRfF5PYGBPXnsMkZIBhf50Y2hoYwGM/nuSkQABAAoAAAJDApwABgAAMwMzExMzA+/lZ7W2Z+YCnP3SAi79ZAABAAoAAAM+ApwADAAAMwMzExMzExMzAyMDA7KoZ4J6bnqCZ6dygYECnP3YAij92AIo/WQCKP3YAAEACgAAAmUCnAALAAAzEwMzFzczAxMjAwMK9edwr69x5/VxvbwBWAFE9fX+vP6oAQn+9wABAAoAAAJJApwACAAAMxEDMxMTMwMR+/Fnubhn8AEDAZn+vQFD/mf+/QABACwAAAIzApwACQAAMzUBITUhFQEhFSwBiv6FAen+eAGXUQH6UVH+BlEAAAIAJv/0AdsB+AAdACkAABciJiY1NDY2NzYmIyIGByc2NjMyFhUVFBYXIycGBicyNjY1NQ4CFRQW0S9OLlOXZQI2PC05CFEUZ0NnXwoHTRQWUi8nRixMcD0zDCJALTtEJQs/RCkkGDk/YWh0PlojRCUrQxxDOh8IFykiIysAAAIARv/0AhACnAASAB4AAAUiJicHIxEzFTY2MzIWFhUUBgYnMjY1NCYjIgYVFBYBOzpQFxY+VBdQOjlhOzthT0BNTUBATU0MLyhLApz6Jy89c1JScz1IYlhZYWFZWGIAAAEAJv/0AdMB+AAdAAAFIiYmNTQ2NjMyFhcHJiYjIgYGFRQWFjMyNjcXBgYBDUdoODtsSUNgGE0QPiYlQigpQSUpPRBNHGgMQ3RLSnVDQi4cHiQnUT8+UyglHBwwPwACACb/9AIBApwAFQAhAAAXIiYmNTQ2NjMyFhc1MxEUFhcjJwYGJzI2NTQmIyIGFRQW+zhiOztiODtQFlQEDU8WFlAlQE1NQEBNTQw9c1JScz0vJ/r+HxlhQUsoL0hiWFlhYVlYYgACACb/9AICAfgAGAAhAAAFIiYmNTQ2NjMyHgIHIR4CMzI2NxcGBgMhNCYmIyIGBgEZTmw5QG1EO1o7GwT+ggIzRh4qORFRG2TeASQjPywlQisMRXVJT3M/L09kNT5IHRsWGCs4ATAjQCkcPgABAA8AAAEeAsIAFAAAMxEjNTM1NDY2MzMVIyIGFRUzFSMRY1RUFDo3NjQgE2dnAa1DSjM8GUcaJktD/lMAAAIAJv9AAeoB+AAfAC0AAAUiJiYnNxYWMzI2NTUGBiMiJiY1NDY2MzIWFzczERQGAzI2NjU0JiYjIgYVFBYBEihPPQ1UDkAfTTcXTDs3YDs7YDc7TBcXPV9+Jj8nJz8mPU9PwBc0KRcnGkpIQicuOW9PUG46LydO/j92eQEPJE4/P04jW1VVXAABAEYAAAHeApwAFAAAMxEzFTY2MzIWFREjETQmJiMiBhURRlQVTD9aSlQOLzA9RgKc9yMwaVX+xgEhJkEoU1D+8wACAC0AAADbAssACwARAAATIiY1NDYzMhYVFAYDESM1MxGcGSUlGRolJURFmQJOJRoaJCQaGiX9sgGtQ/4QAAL/xv9fAMICywALABkAABMiJjU0NjMyFhUUBgMnNRcyNjY1ETMRFAYGhBolJRoaJCShNy8qLA9UH00CTiUaGiQkGhol/RECSQEPKioB5P4XQEkfAAEARgAAAeACnAALAAAzETMRNzMHEyMnBxVGVMhlu9RnpToCnP51383+3eU/pgABAEYAAADgApsADAAAMyImJjURMxEUFjMzFbsvMxNUECMTEzYzAh/97yYaSgAAAQBGAAADBQH4ACQAADMRMxc2NjMyFhc2NjMyFhURIxE0JiYjIgYVESMRNCYmIyIGFRFGPhYVSTc5RhAeVTRWSlQPLS42QVQPLS42QgHwSyMwLikuKWlV/sYBISZBKFNQ/vMBISZBKFNQ/vMAAQBGAAAB3gH4ABQAADMRMxc2NjMyFhURIxE0JiYjIgYVEUY+FhVMP1pKVA4vMD1GAfBLIzBpVf7GASEmQShTUP7zAAACACb/9AICAfgAEwAjAAAFIi4CNTQ+AjMyHgIVFA4CJzI2NjU0JiYjIgYGFRQWFgEUK1RFKipFVCsrVUUpKUVVKyRELCxEJCNFLCxFDB4/YkNDYj8eHj9iQ0NiPx5KJ1FAQFEnJ1FAQFEnAAACAEb/XwIQAfgAEgAeAAAXETMXNjYzMhYWFRQGBiMiJicVNzI2NTQmIyIGFRQWRj0XF1A6OWE7O2E5OlAXi0BNTUBATU2hApFOJy89c1JRdD0vKOzdYlhZYWFZWGIAAgAm/1MCdAH4AB4AKgAABSImJjU1BgYjIiYmNTQ2NjMyFhc3MxEUFjMyNxUGBiUyNjU0JiMiBhUUFgIfIjwlFlE7OGE7O2E4O1EWFz0hJhojEyz+3EBNTUBATk6tGj85ZigvPXRRUnM9LydO/fgbKw1OBgjpYlhZYWFZWGIAAQBGAAABTwH4AA4AADMRMxc2NjMVIiIHBgYVFUY9GxpZPgcPB1VDAfBcLTdXAQdoXNUAAAEAH//0AbkB+QAtAAAXIiYmJzcWFjMyNjY1NCYnJy4CNTQ2NjMyFhcHJiYjIgYVFBYXFx4CFRQGBu8rU0ERUQtLKR41IkEtRSQ+JjhXMDtpFk8NQSMmPjUnQShILjpcDBs3Kh4sJxIiFikiCQ4IHTYtLT0gMTQdHh0iICAdCA0IHjs1L0IjAAABABQAAAEcAm0AFAAAMyImJjURIzUzNTMVMxUjERQWMzMV3S8zE1RUVGBgDyQtEzYzATFDfX1D/t0mGkoAAAEARP/0AdIB8QAVAAAXIiYmNREzERQWFjMyNjURMxEjJwYG4zpGH1QaLx87Q1Q/FRVIDDFXOAE9/tc3PBdTTwER/g9IJDAAAAEAAAAAAbkB8AAGAAAzAzMTEzMDsbFbgoFbsQHw/n4Bgv4QAAEAAAAAAo4B8AAMAAAzAzMTEzMTEzMDIwMDj49aX2NXYl9ajk1sbAHw/pEBb/6RAW/+EAGP/nEAAQAAAAABzQHwAAsAADE3JzMXNzMHFyMnB7WsY3p7Y6y1Y4SD//GsrPH/ubkAAAEAAP9fAa0B7wAQAAAXNTMyNjY3AzMTEzMDDgIjJSIkJhcLs116elywEiU+OKFKCyUmAfD+ggF+/fs1PRkAAQAoAAABrgHwAAkAADM1ASE1IRUBIRUoAR3+7AFz/uMBJ0oBXEpK/qRKAAABADUCOQFbArEADQAAEyImJzMWFjMyNjczBgbIN1ELRQkqGxoqCkUKUwI5RTMXHh4XM0UAAQA1AaIAtgKcAA0AABMiJjU0NzczBxYWFRQGdhsmBT43LxcfJgGiJxkMDaF6BCQYGyUAAAEANQGtALYCqAANAAATNyYmNTQ2MzIWFRQHBzwvFx8mGhsmBT4BrXsEIxgbJiYaDA2iAAACADUBogFZApwADgAdAAATIiY1NDY3NzMHFhYVFAYzIiY1NDY3NzMHFhYVFAZ2GSgEBDs3LxcfJokZKAQEOzcvFx8mAaIjGAsRCpl6BCQYGyUjGAsRCpl6BCQYGyUAAgA1Aa0BWQKoAA0AGwAAEzcmJjU0NjMyFhUUBwczNyYmNTQ2MzIWFRQHBzwvFx8mGhsmBT5sLxcfJhsbJQU9Aa17BCMYGyYmGgwNonsEIxgbJiYaDA2iAAIANf96AVkAdQANABsAABc3JiY1NDYzMhYVFAcHMzcmJjU0NjMyFhUUBwc8LxcfJhobJgU+bC8XHyYbGyUFPYZ7BCMYGyYmGgwNonsEIxgbJiYaDA2iAAABACgAAAH1ApwACwAAMxEjNTM1MxUzFSMR5r6+Ub6+AaBQrKxQ/mAAAQAoAAAB9QKcABMAADM1IzUzNSM1MzUzFTMVIxUzFSMV5r6+vr5Rvr6+vqxPpVCsrFClT6wAAQA1AFgBgQGkAA8AADciJiY1NDY2MzIWFhUUBgbbLkstLUsuLkstLUtYLUwtLkstLUsuLUwtAAADADX/9AKDAHUACwAXACMAAAUiJjU0NjMyFhUUBiEiJjU0NjMyFhUUBjMiJjU0NjMyFhUUBgJDGyYmGxomJv4YGiYmGhsmJswbJSUbGyYmDCYaGyYmGxomJhobJiYbGiYmGhsmJhsaJgAABwAm//QFCgKoAA8AEwAfAC8APwBLAFcAABMiJiY1NDY2MzIWFhUUBgYDATMBAzI2NTQmIyIGFRQWASImJjU0NjYzMhYWFRQGBiEiJiY1NDY2MzIWFhUUBgYlMjY1NCYjIgYVFBYhMjY1NCYjIgYVFBbcMlMxMVMyMlIxMVJUAdRY/iw2LD8/LCxAQAIUMlMxMVMyMlIxMVIBXzJTMTFTMjJSMTFS/j0sPz8sLT8/Ab4sPz8sLT8/ATwxUzIyUzExUzIyUzH+xAKc/WQBhz8sLD8/LCw//m0xUjIzUjExUjMyUjExUjIzUjExUjMyUjFKPywtPz8tLD8/LC0/Py0sPwAAAgA1ACgB/QHNAAUACwAAJSc3MwcXISc3MwcXAZmTk2SWlv7MlJRjlZUo09LS09PS0tMAAAIAKAGYATgCqAAPABsAABMiJiY1NDY2MzIWFhUUBgYnMjY1NCYjIgYVFBawJT4lJT4lJj0lJT0mHyoqHx4rKwGYJT4lJj0lJT0mJT4lPyseHyoqHx4rAAACADUAAAIOAfAACwAPAAA3NSM1MzUzFTMVIxUFNSEV+sXFT8XF/uwB2XyST5OTT5J8T08AAQAm/18B4wKcABEAABcRLgI1NDY2MyEVIxEjESMRuypEJzNWNAEAKFFeoQHHCTVOLTRWM0P9BgL6/QYAAQA1ALcAtgE4AAsAADciJjU0NjMyFhUUBnUaJiYaGyYmtyYbGiYmGhsmAAACADUAKAH9Ac0ABQALAAAlNyczFwchNyczFwcBBpWVY5SU/syVlWSTkyjT0tLT09LS0wAABAA1AAADBQKcAAMADAAXABoAADMBMwEDESM1MjY3MxEBNSM1NzMVMxUjFSczNXMB1Fj+LURTITMKOQG0ubpDQUG0cAKc/WQBJAEXMBUc/oj+3FY27Ok5Vo+SAAADADUAAAL3ApwAAwAMACMAADMBMwEDESM1MjY3MxEBNTY2NTQmIyIGByc2NjMyFhUUBgczFXMB1Fj+LENTITMKOAEZXGkfGhYmBUALRTQ1R2JYwgKc/WQBJAEXMBUc/oj+3DZKaC4aHBsgEykxNC84bjs6AAQANQAAAy8CqAApAC0AOAA7AAATIiYnNxYWMzI2NTQmIyM1MzI1NCYjIgYHJzY2MzIWFhUUBgcWFhUUBgYDATMBITUjNTczFTMVIxUnMzW7NUQNPggiHx8qLywTElMmGBwjCD0NRzQfOiYeFx8fKEFEAdVY/isBtbm6REBAtXABIzMmEhggIRwjHDU5GxocGRIoLhUtJBwrDAsyHSYzGf7dApz9ZFY27Ok5Vo+SAAEAKAAAAgEB8AAGAAAhJTUlFQUFAgH+JwHZ/pABcNVG1VqengAAAgA1AHkCJQGCAAMABwAAEzUhFQU1IRU1AfD+EAHwATNPT7pPTwABACgAAAIBAfAABgAAMzUlJTUFFSgBcP6QAdlanp5a1UYAAgAo//QB1gKoACAALAAANzU0NjY3NjY1NCYjIgYGByc2NjMyFhYVFAYGBw4CFRUHIiY1NDYzMhYVFAa2GTMmJDJGNy04HQVSD3lVNGA9JDkgHCIPKRkoJhsbJSa+JSc1LBgXOigwNiEyGhdIVCNIOStGNhUSHCAaIsokHBsmJxoaJgAAAgAy//QC2gKoAEAATgAABSIuAjU0PgIzMh4CFRQGBiMiJicGBiMiJiY1NDY2MzIWFxUUFjMyNjY1NC4CIyIOAhUUHgIzMjcVBgYnMjY1NSYmIyIGBhUUFgGOQn1jOjZffUg5dWM9L0clIjoKGD0fI0AoOFkyHj0cGRIfKRUqS2I5OmdPLC9QZjdIQCBEPx01ChcMGTAfKQwyW4BOR31fNilRdUtNXSkgGh0dJUk1TFglCwniFhYnPyMzW0YoLE1nO0BpTCkkRQ4O8Tc2ZwICFDk3KykAAAIAJv/0AKcB+AALABcAABMiJjU0NjMyFhUUBgMiJjU0NjMyFhUUBmYaJiYaGyYmGxomJhobJiYBdyYbGiYmGhsm/n0mGhsmJhsaJgACACb/ewCnAfgACwAZAAATIiY1NDYzMhYVFAYDNyYmNTQ2MzIWFRQHB2YaJiYaGyYmVC8XHyYaGyYFPgF3JhsaJiYaGyb+BHoEJBgaJiYaDA2hAAABAEz/XwEaApwABwAAFxEzFSMRMxVMzn19oQM9Sv1XSgAAAQAPAAABagKcAAMAACEBMwEBE/78VwEEApz9ZAAAAQAh/18A7wKcAAcAABc1MxEjNTMRIX19zqFKAqlK/MMAAAEANQE3AfMCnAAGAAATEzMTIwMDNblMuVmGhgE3AWX+mwEC/v4AAQAK/7EBggAAAAMAABc1IRUKAXhPT08AAQA1AjsA1wLDAA0AABMmJicmJjU0NjMyFhcXkRMqDgoHFhAIEAddAjsQIw4LDwcQFgYJeQAAAgBM//QAzQKcAAUAEQAANwM1MxUDByImNTQ2MzIWFRQGchJZEhsaJiYaGyYmwwEtrKz+088mGhsmJhsaJgACACgBvwEFApwAAwAHAAATJzMHIyczB8MOUA7BDlAOAb/d3d3dAAIAJgAAAmkCnAAbAB8AADM3IzczNyM3MzczBzM3MwczByMHMwcjByM3Iwc3MzcjiRl8C3wXfAt8GFIYexhSGHsLfBZ7C3wYUhh7GCR7FnusUaJRrKysrFGiUaysrP2iAAMAKP+pAioC5gAoADEAOAAABTUmJic3Fhc1Jy4CNTQ+Ajc1MxUWFhcHJiYnFRceAxUUBgYHFQM1DgIVFBYXEzY2NTQmJwELVnQZVyJqJC5UNidBTScyQ28cVhNCIwwmT0MpQmw/Mho6KD8uQUNJTj5XTAhSQxpZDu8HCStLOCxCLBgDPz8FPDsZICEE1QMKGipCMz5YLwNLAeXKAhUoIiwxCf6zBD4uNDMOAAAFACb/9AN5AqgADwATAB8ALwA7AAATIiYmNTQ2NjMyFhYVFAYGAwEzAQMyNjU0JiMiBhUUFgEiJiY1NDY2MzIWFhUUBgYnMjY1NCYjIgYVFBbcMlMxMVMyMlIxMVJUAdRY/iw2LD8/LC0/QAIUMlMxMVMyMlIxMVIyLD8/LC0/PwE9MVIyM1IxMVIzMlIx/sMCnP1kAYc/LC0/Py0sP/5tMVMyMlMxMVMyMlMxSkAsLD8/LCxAAAMAJv/0ArcCqAAhAC4AOQAABSImJjU0NjcmJjU0NjMyFhYVFAYHFzY2NzMGBgcXIycGBgM2NjU0JiMiBhUUFhYDMjY3JwYGFRQWFgEHRWU3Xk0iKGdPKVA1Tj6IDRIDVwQfG5V3Uit0IzE8NSUlOSElIDVaIrU8RyY+DDRYN01lGiZKJ0FNGz82P1QakB9HKDZpLZ1XLjUBqxI6KCkiICIbNSb+mConvxVGOCY5HgAAAQAoAb8AeAKcAAMAABMnMwc2DlAOAb/d3QABADL/XwEJApwADQAAFyYmNTQ2NzMGBhUUFhe9RUY3N0sxPkFMoWLjdGbGWEbMdG3jZwAAAQAj/18A+gKcAA0AABc2NjU0JiczFhYVFAYHI0xCPTJLODVGRKFn5G1zzEZYxmV142IAAAEARAGEAWsCnAAOAAATJzcnNxc1MxU3FwcXByeZLj5lEmU5ZRJmPy4/AYQiViA3IWpqITcgViJWAAABADUAAAIlAfAACwAAITUjNTM1MxUzFSMVAQXQ0FDQ0NBQ0NBQ0AAAAQAm/3sApwB1AA0AABc3JiY1NDYzMhYVFAcHLS8XHyYaGyYFPoV6BCQYGiYmGgwNoQABACYA0AFKASEAAwAANzUhFSYBJNBRUQABACb/9ACnAHUACwAAFyImNTQ2MzIWFRQGZhomJhobJiYMJhobJiYbGiYAAAEADwAAAWoCnAADAAAzATMBDwEEV/78Apz9ZAABACb/XwEdApwAJQAAFyImJjU1NCYjNTI2NTU0NjYzMxUjIgYVFRQGBxUWFhUVFBYzMxXyODoUFy8vFxQ6OCsqIRIrJCYpEiEqoRk8M5YrNEM0K5Y0OxlHGiaZPzUKAQo2PpknGUcAAAEATP9fAJ0CnAADAAAXETMRTFGhAz38wwAAAQAi/18BGQKcACUAABc1MzI2NTU0Njc1JiY1NTQmIyM1MzIWFhUVFBYzFSIGFRUUBgYjIiohEiolJCsSISorODoUGC4uGBQ6OKFHGSeZPjYKAQo1P5kmGkcZOzSWKzRDNCuWMzwZAAABACgAwwIDAUMAFQAAJSImJiMiBgcnNjYzMhYWMzI2NxcGBgF7JEVBHhkiBUsLSDYqRz4aFyMFSgtIwxsbGRkWLjgbHBoZFi44AAEARv/0AiwCqAA+AAAXJz4DNTQmJyM1MyYmNTQ2NjMyFhcHJiYjIgYGFRQWFzMVIxYWFRQGBzY2MzIWFjMyNjcXBgYjIiYmIyIGZRwOKysdCwxtVhAcQmY1VG4TUw1KLxw8KB8RzLUKCDcpER4NHjI2Ihc1IRklPholPjwlG0IMQwYaKjsmFC8ZMyJFJz5KIUtAGTQpEiwnJEQjMxYoEjJKGAcFEhILDkkQDhMTEQAAAgAf/1MB9AKoADUARAAABSImJzcWFjMyNjU0JicnJiY1NDY3JiY1NDY2MzIWFwcmJiMiBhUUFhcXFhYVFAYHFhYVFAYGEzY2NTQmJycOAhUUFhcBBUpmElMKNjEsOEAtXjVMRzEdLjVTLUReFFEMOSQlNjcocjZLQTIdIzNWCyI7JiCAGC8gLiitRD0YJywiISY1Fi8bUTkyRRAUPS0sOR05MRggHBweHC8VOhxMNDRNFhY2JjFDIgEuDjEiHi0RRQcaJBgjKhYAAAIANQJOAXQCuQALABcAABMiJjU0NjMyFhUUBjMiJjU0NjMyFhUUBmsWICAWFx8fvBYfHxYXHx8CTiAWFh8fFhYgIBYWHx8WFiAAAgA1AGECEAGbABUAKwAAEyc2NjMyFhYzMjY3FwYGIyImJiMiBgcnNjYzMhYWMzI2NxcGBiMiJiYjIgaASwxINypHPRoXIgVKC0g1JEVBHhkiBUsLSDYqRz4aFyMFSgtINSRFQR4ZIgEfFi44GxwaGRYuOBsbGdMWLjgbHBoZFi44GxsZAAABADUAAAIlAfAAEwAAMzcjNTM3IzUhNzMHMxUjBzMVIQdNVW2lSu8BJ01jTGWdS+j+4VV5T2tQbW1Qa095AAIANQAAAg4B+QAGAAoAACUlNSUVDQI1IRUCDv4nAdn+kAFw/icB2WSnRqhbcHC+UFAAAgA1AAACDgH5AAYACgAANzUlJTUFFQE1IRU1AXD+kAHZ/icB2WRacHBbqEb+9VBQAAABADUCPwF+AqkAHAAAASImJyYmIyIHIzY2MzIWFjMyNjc2NjMyFhUUBgYBHRAgFA8bDyUFQQk5KBwoIxUPEQcGEAcOERosAj8LCggOKTUzFRYMCwsIEwwPIhkAAAEAKQDQAbcBHwADAAA3NSEVKQGO0E9PAAEAKQDQAvcBHwADAAA3NSEVKQLO0E9PAAEANQAnAdsBzgALAAA3JzcnNxc3FwcXByduOZqaOZqaOZmZOZonOpmaOpqaOpqZOpoAAwA1AA4CJQHjAAsADwAbAAABIiY1NDYzMhYVFAYFNSEVByImNTQ2MzIWFRQGAS0bJiYbGyUl/u0B8PgbJiYbGyUlAWIlGxsmJhsbJZJRUcImGxomJhobJgD//wAKAAACaANjAiYADAAAAAcArQCXAAD//wAKAAACaANPAiYADAAAAAcAdgBkAJb//wAKAAACaANgAiYADAAAAAcAqQD/AAD//wAm//QB2wLDAiYAJgAAAAcAsQCbAAD//wAm//QB2wK3AiYAJgAAAAYArGUA//8AJv/0AdsCuQImACYAAAAGAK9nAP//ACb/9AHbAsMCJgAmAAAABwCoANgAAP//ADL/SwJqAqgCJgAOAAAABwCrAQMAAP//ACb/SwHTAfgCJgAoAAAABwCrALUAAP//AEwAAAIRA2ACJgAQAAAABwCpAPYAAP//AEwAAAIRA08CJgAQAAAABwB2AFsAlv//ACb/9AICAsMCJgAqAAAABwCxAK0AAP//ACb/9AICAsMCJgAqAAAABwCoAOoAAP//ACb/9AICArkCJgAqAAAABgCveQD//wBCAAABXANgAiYAFAAAAAcAqQCVAAD//wAtAAABcANjAiYAFAAAAAYArS0A//8ALwAAAW4DTwImABQAAAAHAHb/+gCW//8AGgAAAMYCwwImALIAAAAGALEaAP//AC0AAAD5AsMCJgCyAAAABgCoVwD////kAAABJwK3AiYAsgAAAAYArOQA////5gAAASUCuQImALIAAAAGAK/mAP//AEwAAAJlA1UCJgAZAAAABwB7AJAArP//ADL/9AKlA2ACJgAaAAAABwCpATIAAP//ADL/9AKlA08CJgAaAAAABwB2AJcAlv//AEz/9AJmA2ACJgAgAAAABwCpAR8AAP//AEz/9AJmA08CJgAgAAAABwB2AIQAlv//AEYAAAHeAqkCJgAzAAAABgC2ewD//wAm//QCAgLDAiYANAAAAAcAsQCoAAD//wAm//QCAgLDAiYANAAAAAcAqADlAAD//wAm//QCAgK5AiYANAAAAAYAr3QA//8ARP/0AdICwwImADoAAAAHALEAnwAA//8ARP/0AdICwwImADoAAAAHAKgA3AAA//8ARP/0AdICuQImADoAAAAGAK9rAP//AAoAAAJoA10CJgAMAAAABwBAAHEArP//ACb/9AHbArECJgAmAAAABgCqdAD//wAo/0sCLAKoAiYAHgAAAAcAqwDRAAD//wAf/0sBuQH5AiYAOAAA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';
+const CERT_FONT_B = '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WAD//wAY//QCCALPAiYAJgAAAAYAr3YA//8AGP/0AggC1wImACYAAAAHAKgA2QAA//8AI/9FAosCqAImAA4AAAAHAKsA+QAA//8AGP9FAfYB/gImACgAAAAHAKsApwAA//8ALAAAAi4DdQImABAAAAAHAKkA6QAA//8ALAAAAi4DYwImABAAAAAHAHYATQCU//8AGP/0AiUC2AImACoAAAAHALEAkQAA//8AGP/0AiUC1wImACoAAAAHAKgA2AAA//8AGP/0AiUCzwImACoAAAAGAK91AP//ADkAAAGRA3UCJgAUAAAABwCpAKEAAP//ACIAAAGrA3MCJgAUAAAABgCtIgD//wA5AAABkQNjAiYAFAAAAAcAdgAFAJT//wAWAAABDwLYAiYAsgAAAAYAsRYA//8AGAAAAS0C1wImALIAAAAGAKhdAP///9wAAAFlAtYCJgCyAAAABgCs3AD////6AAABSALPAiYAsgAAAAYAr/oA//8ALAAAApADUQImABkAAAAHAHsAjwCg//8AI//0AtkDdQImABoAAAAHAKkBOAAA//8AI//0AtkDYwImABoAAAAHAHYAnACU//8ALP/0AmsDdQImACAAAAAHAKkBBgAA//8ALP/0AmsDYwImACAAAAAHAHYAagCU//8AMgAAAgoCsQImADMAAAAGALZ4AP//ABj/9AIlAtgCJgA0AAAABwCxAJQAAP//ABj/9AIlAtcCJgA0AAAABwCoANsAAP//ABj/9AIlAs8CJgA0AAAABgCveAD//wAy//QCBwLYAiYAOgAAAAcAsQCSAAD//wAy//QCBwLXAiYAOgAAAAcAqADZAAD//wAy//QCBwLPAiYAOgAAAAYAr3YA//8ABQAAAq0DUwImAAwAAAAHAEAAkACi//8AGP/0AggCsQImACYAAAAHAKoAjQAA//8AGf9FAlQCqAImAB4AAAAHAKsA3QAA//8AFf9FAfsB/gImADgAAAAHAKsAnwAA//8AGf8FAlQCqAImAB4AAAAHAK4AxAAA//8AD/8FAloCnAImAB8AAAAHAK4AsAAA//8AD/8FAloCnAImAB8AAAAHAK4AsAAAAAEAAAI+ANAC1wANAAARNjY3NjMyFhUUBwYGBxw3HA8aGCATEyUTAj4iQyISIBgaEA0cDgABAAAC2wDaA3UADgAAETY2NzYzMhYVFAYH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/+0ACAAG/9sACQAkAAr/0QBKAB8AZQAfAG3/yQB8/8kAff/JAAYAA//kAAn/7QAL/+kASv/nAEz/5ABl/+cAAwAG/+kACf/tAAr/6QAOAAz/7QAh/+0AI//tACT/5AAm//IAgP/tAIH/7QCC/+0Ag//yAIT/8gCF//IAhv/yAKH/7QCi//IADwAM/9oAFf/gAB8AFwAm/+oAgP/aAIH/2gCC/9oAg//qAIT/6gCF/+oAhv/qAKH/2gCi/+oApgAXAKcAFwAFAB//7QAh/+QAJP/RAKb/7QCn/+0ACwAM/+QAJv/vAID/5ACB/+QAgv/kAIP/7wCE/+8Ahf/vAIb/7wCh/+QAov/vAB8ADv/RABL/0QAa/9EAHP/RACj/3wAp/98AKv/fAC7/yAA0/98ANv/fADr/1QA7/84APP/OAD7/zgCH/9EAiP/fAIv/3wCM/98Ajf/fAJH/yACS/8gAk//IAJT/yACW/9EAl//RAJv/3wCc/98Anf/fAJ7/1QCf/9UAoP/VAAYAFQAcACH/vgAi/9oAIwAcADz/0QA9ABwAEgAM/64AFf+9ACP/4wAk/+0AJf/tACb/5AA4/+0AgP+uAIH/rgCC/64Ag//kAIT/5ACF/+QAhv/kAKH/rgCi/+QApP/tALP/7QAIAAwAHAAjABMAJP/aAD8AEwCAABwAgQAcAIIAHAChABwALAAM/70ADv/kABL/5AAV/9oAGv/kABz/5AAfACYAIQATACIAEwAkABMAJv/aACj/0QAp/9EAKv/RACz/0QAy/+0AM//tADT/0QA2/9EAOP/tAID/vQCB/70Agv+9AIP/2gCE/9oAhf/aAIb/2gCH/+QAiP/RAIv/0QCM/9EAjf/RAJb/5ACX/+QAmv/tAJv/0QCc/9EAnf/RAKH/vQCi/9oApP/tAKYAJgCnACYAs//tACUADP/RAA7/7QAS/+0AFf/kABr/7QAc/+0AHwAcACEAEwAkAA4AJv/kACj/6QAp/+kAKv/pACz/5AA0/+kANv/pAID/0QCB/9EAgv/RAIP/5ACE/+QAhf/kAIb/5ACH/+0AiP/pAIv/6QCM/+kAjf/pAJb/7QCX/+0Am//pAJz/6QCd/+kAof/RAKL/5ACmABwApwAcACUADv/kABL/5AAa/+QAHP/kACb/7QAo/+4AKf/uACr/7gAs/+0ALv/rADT/7gA2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';
 /* Fonturile standard jsPDF (Helvetica) folosesc WinAnsi/cp1252, care NU contine
    s-comma, t-comma, a-breve, a-circumflex, i-circumflex. Fara transliterare,
    numele elevului si textul certificatului se randau gresit. */
@@ -4770,10 +4780,14 @@ function deDia(str) {
 function generateDiploma(name, score, total) {
   const { jsPDF } = window.jspdf || {};
   if (!jsPDF) {
-    alert('Eroare: biblioteca pentru PDF nu s-a încărcat. Verifică conexiunea la internet și reîncarcă pagina.');
+    alert('Eroare: biblioteca pentru PDF nu s-a încărcat. Reîncarcă pagina.');
     return;
   }
   const doc = new jsPDF({ orientation: 'landscape', unit: 'mm', format: 'a4' });
+  doc.addFileToVFS('Atkinson-Regular.ttf', CERT_FONT_R);
+  doc.addFont('Atkinson-Regular.ttf', 'Atkinson', 'normal');
+  doc.addFileToVFS('Atkinson-Bold.ttf', CERT_FONT_B);
+  doc.addFont('Atkinson-Bold.ttf', 'Atkinson', 'bold');
   const W = doc.internal.pageSize.getWidth();
   const H = doc.internal.pageSize.getHeight();
   const percent = Math.round((score / total) * 100);
@@ -4793,10 +4807,10 @@ function generateDiploma(name, score, total) {
   doc.rect(14, 14, W - 28, H - 28);
 
   // header text
-  doc.setFont('helvetica', 'normal');
+  doc.setFont('Atkinson', 'normal');
   doc.setFontSize(11);
   doc.setTextColor(45, 106, 79);
-  doc.text(deDia('AI START \u00b7 INTELIGENTA ARTIFICIALA \u00b7 CLASA A IX-A / X-A'), W / 2, 30, { align: 'center' });
+  doc.text(('AI START \u00b7 INTELIGENȚĂ ARTIFICIALĂ \u00b7 CLASA A IX-A / A X-A'), W / 2, 30, { align: 'center' });
 
   // institution
   doc.setFontSize(10);
@@ -4804,53 +4818,53 @@ function generateDiploma(name, score, total) {
   // Instituția intenționat omisă — resursa este publicată în nume personal
 
   // main title
-  doc.setFont('helvetica', 'bold');
+  doc.setFont('Atkinson', 'bold');
   doc.setFontSize(28);
   doc.setTextColor(14, 26, 35);
   doc.text('CERTIFICAT DE PARTICIPARE', W / 2, 60, { align: 'center' });
 
   // grade subtitle
-  doc.setFont('helvetica', 'normal');
+  doc.setFont('Atkinson', 'normal');
   doc.setFontSize(13);
   doc.setTextColor(45, 106, 79);
-  doc.text(deDia(grade.toUpperCase()), W / 2, 70, { align: 'center' });
+  doc.text((grade.toUpperCase()), W / 2, 70, { align: 'center' });
 
   // body lead
-  doc.setFont('helvetica', 'normal');
+  doc.setFont('Atkinson', 'normal');
   doc.setFontSize(12);
   doc.setTextColor(74, 91, 102);
-  doc.text(deDia('Se acord\u0103 elevului/elevei'), W / 2, 82, { align: 'center' });
+  doc.text(('Se acord\u0103 elevului/elevei'), W / 2, 82, { align: 'center' });
 
   // name
-  doc.setFont('helvetica', 'bold');
+  doc.setFont('Atkinson', 'bold');
   doc.setFontSize(26);
   doc.setTextColor(45, 106, 79);
-  doc.text(deDia(name) || '________________', W / 2, 100, { align: 'center' });
+  doc.text((name) || '________________', W / 2, 100, { align: 'center' });
 
   // underline
   doc.setDrawColor(214, 245, 230);
   doc.setLineWidth(0.8);
-  const textWidth = doc.getTextWidth(deDia(name) || '________________');
+  const textWidth = doc.getTextWidth((name) || '________________');
   doc.line(W / 2 - textWidth / 2 - 5, 103, W / 2 + textWidth / 2 + 5, 103);
 
   // body
-  doc.setFont('helvetica', 'normal');
+  doc.setFont('Atkinson', 'normal');
   doc.setFontSize(12);
   doc.setTextColor(74, 91, 102);
-  doc.text(deDia('pentru parcurgerea cursului \u015fi atingerea pragului de promovare'), W / 2, 116, { align: 'center' });
-  doc.setFont('helvetica', 'italic');
-  doc.text(deDia('\u00abAI Start \u2014 Alfabetizare in inteligenta artificiala\u00bb'), W / 2, 124, { align: 'center' });
+  doc.text(('pentru parcurgerea cursului \u0219i atingerea pragului de promovare'), W / 2, 116, { align: 'center' });
+  doc.setFont('Atkinson', 'normal');
+  doc.text(('\u00abAI Start \u2014 Alfabetizare în inteligență artificială\u00bb'), W / 2, 124, { align: 'center' });
 
   // score
-  doc.setFont('helvetica', 'normal');
+  doc.setFont('Atkinson', 'normal');
   doc.setFontSize(12);
   doc.setTextColor(74, 91, 102);
-  doc.text(deDia(`Punctaj la evaluarea sumativ\u0103: ${score}/${total} (${percent}%)`), W / 2, 140, { align: 'center' });
+  doc.text((`Punctaj la evaluarea sumativ\u0103: ${score}/${total} (${percent}%)`), W / 2, 140, { align: 'center' });
 
   // competențe acoperite
   doc.setFontSize(9);
   doc.setTextColor(107, 122, 133);
-  doc.text(deDia('Competente validate: concepte IA & LLM · prompt engineering · evaluare critica & halucinatii · detectare deepfake · bias algoritmic · GDPR & AI Act · etica IA in scoala'), W / 2, 150, { align: 'center', maxWidth: W - 60 });
+  doc.text(('Teme parcurse: concepte IA și LLM · prompt engineering · evaluare critică și halucinații · deepfake · bias algoritmic · GDPR și AI Act · etica IA în școală'), W / 2, 150, { align: 'center', maxWidth: W - 60 });
 
   // meta line (date + signature)
   const today = new Date();
@@ -4860,15 +4874,15 @@ function generateDiploma(name, score, total) {
   doc.setFontSize(10);
   doc.setTextColor(107, 122, 133);
   doc.text(`Data emiterii: ${dd}.${mm}.${yy}`, 30, H - 32);
-  doc.text(deDia('AI Start v1.2 \u00b7 CC BY-NC-SA 4.0'), W - 30, H - 32, { align: 'right' });
+  doc.text('AI Start v1.3 \u00b7 CC BY-NC-SA 4.0', W - 30, H - 32, { align: 'right' });
 
   // signature lines
   doc.setDrawColor(180, 192, 200);
   doc.line(30, H - 22, 90, H - 22);
   doc.line(W - 90, H - 22, W - 30, H - 22);
   doc.setFontSize(9);
-  doc.text(deDia('Prof. Dr\u0103gan Elena (autor)'), 60, H - 17, { align: 'center' });
-  doc.text(deDia('Semn\u0103tur\u0103 elev'), W - 60, H - 17, { align: 'center' });
+  doc.text(('Prof. Dr\u0103gan Elena (autor)'), 60, H - 17, { align: 'center' });
+  doc.text(('Semn\u0103tur\u0103 elev'), W - 60, H - 17, { align: 'center' });
 
   // download
   const safeName = (deDia(name) || 'elev').replace(/[^\w\s-]/g, '').replace(/\s+/g, '_');
@@ -5049,8 +5063,8 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     lessonBoot(7);
     setupQuiz('L7Q1', 3);
-    setupQuiz('L7Q2', 3);
-    setupQuiz('L7Q3', 3);
+    setupQuiz('L7Q2', 0);
+    setupQuiz('L7Q3', 1);
     setupMatch('L7match', [{},{},{},{}]);
   });
 
@@ -5069,7 +5083,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupScenario('sc2', false);  // copierea integrală a temei — NU OK
     setupScenario('sc3', true);   // explicarea unui concept — OK
     setupScenario('sc4', false);  // rezolvarea la teză — NU OK
-    setupQuiz('L9Q1', 3);
+    setupQuiz('L9Q1', 0);
     setupQuiz('L9Q2', 2);
     setupQuiz('L9Q3', 3);
   });
