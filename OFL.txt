@@ -1,12 +1,14 @@
 SIL OPEN FONT LICENSE 1.1
 =========================
 
-Acest fisier insoteste resursa educationala "AI Start" v1.2 si acopera
+Acest fisier insoteste resursa educationala "AI Start" v1.3 si acopera
 fonturile incorporate in fisierul index.html:
 
-  • Fraunces               — Copyright (c) Undercase Type
-  • Atkinson Hyperlegible  — Copyright (c) Braille Institute of America, Inc.
-  • JetBrains Mono         — Copyright (c) JetBrains s.r.o.
+  • Fraunces               — Copyright 2018 The Fraunces Project Authors
+                             (https://github.com/undercasetype/Fraunces)
+  • Atkinson Hyperlegible  — Copyright 2020 Braille Institute of America, Inc.
+  • JetBrains Mono         — Copyright 2020 The JetBrains Mono Project Authors
+                             (https://github.com/JetBrains/JetBrainsMono)
 
 Toate trei sunt distribuite sub SIL Open Font License, Version 1.1,
 al carei text integral urmeaza mai jos. Fonturile au fost incorporate
@@ -18,10 +20,12 @@ pastrat alaturi de ea.
 --------------------------------------------------------------------------
 
 Copyright 2018 The Fraunces Project Authors (https://github.com/undercasetype/Fraunces)
+Copyright 2020 Braille Institute of America, Inc.
+Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
-http://scripts.sil.org/OFL
+https://openfontlicense.org
 
 
 -----------------------------------------------------------
