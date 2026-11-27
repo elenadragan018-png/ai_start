@@ -2017,6 +2017,7 @@ h2 { font-weight: 600; }
   .topbar, .lesson-nav, .skip-link, .theme-toggle,
   .resume-banner, .progress-tools, #grade-btn { display: none !important; }
   .view[hidden] { display: block !important; }
+  .view { opacity: 1 !important; transform: none !important; animation: none !important; }
   body {
     background: #fff !important;
     color: #000 !important;
@@ -2061,7 +2062,7 @@ h2 { font-weight: 600; }
     <span class="meta-badge"><span class="key">Clasa</span> <strong>a IX-a / X-a</strong></span>
     <span class="meta-badge"><span class="key">Domeniu</span> <strong>Informatică / TIC</strong></span>
     <span class="meta-badge"><span class="key">Durată</span> <strong>50–60 min/lecție</strong></span>
-    <span class="meta-badge"><span class="key">Versiunea</span> <strong>1.2</strong></span>
+    <span class="meta-badge"><span class="key">Versiunea</span> <strong>1.3</strong></span>
     <span class="meta-badge"><span class="key">Actualizat</span> <strong>noiembrie 2026</strong></span>
   </div>
 </section>
@@ -2389,6 +2390,24 @@ h2 { font-weight: 600; }
       <li><strong>Proiect de clasă</strong>: ghid „IA în siguranță” pentru părinți sau elevii de gimnaziu.</li>
       <li><strong>Dezbatere</strong>: „IA în școală — interzicere, control sau integrare responsabilă?”</li>
     </ul>
+    <h3>Tratare diferențiată și individualizată</h3>
+    <p>Resursa permite fiecărui elev să lucreze în ritm propriu și să revină asupra conținutului de câte ori are nevoie. Mecanismele încorporate sunt: feedback explicativ după fiecare item, planul automat de recuperare de la evaluarea sumativă (indică lecția și secțiunea pentru fiecare item greșit), reluarea nelimitată a testelor, exportul și importul progresului, fontul Atkinson Hyperlegible, modul întunecat și navigarea completă prin tastatură. Partea B a evaluării sumative și sarcina de portofoliu din L9 oferă un nivel suplimentar de dificultate pentru elevii avansați.</p>
+    <p>Pentru fiecare lecție, profesorul poate folosi sarcinile de mai jos: <strong>sprijin</strong> pentru elevii care au nevoie de mai mult timp sau de ghidare (inclusiv elevii cu CES), <strong>extindere</strong> pentru elevii care termină mai repede sau doresc aprofundare.</p>
+    <div class="biblio-table"><table>
+      <thead><tr><th>Lecția</th><th>Sprijin</th><th>Extindere</th></tr></thead>
+      <tbody>
+        <tr><td>L1</td><td>Fișă „concept – exemplu din viața mea” pentru glosarul IA / ML / deep learning / LLM; activitatea de potrivire se rezolvă în perechi.</td><td>Elevul clasifică trei aplicații pe care le folosește zilnic (IA specializată, generativă sau discriminativă) și își justifică alegerea.</td></tr>
+        <tr><td>L2</td><td>Tokenizatorul se folosește cu propoziții scurte date de profesor; explicația se reia pe un exemplu comun, la tablă.</td><td>Elevul explică, folosind contorul de tokeni din simulator, de ce într-o conversație foarte lungă modelul poate „pierde” informațiile de la început (fereastra de context).</td></tr>
+        <tr><td>L3</td><td>Șablon cu cele patru ingrediente (rol, context, sarcină, format), completat pas cu pas.</td><td>Elevul scrie un prompt <span lang="en">few-shot</span> pentru o sarcină de la altă disciplină, apoi îl evaluează împreună cu un coleg.</td></tr>
+        <tr><td>L4</td><td>„Vânătoarea de halucinații” se face în perechi, cu lista celor cinci strategii de verificare la vedere.</td><td>Elevul verifică o afirmație primită de la un chatbot și documentează sursele consultate.</td></tr>
+        <tr><td>L5</td><td>Elevul reia doar itemii greșiți, urmând trimiterea din feedback către lecția corespunzătoare.</td><td>Elevul formulează un item nou, cu patru variante și explicație, pentru colegi.</td></tr>
+        <tr><td>L6</td><td>Fișă-rezumat cu semnalele de alarmă pe trei coloane: imagine, voce, video.</td><td>Elevul propune un protocol de verificare pentru familie (cuvânt-cod, apel pe un număr cunoscut) și îl prezintă clasei.</td></tr>
+        <tr><td>L7</td><td>Se discută un singur caz (instrumentul de recrutare Amazon), cu întrebări ghidate.</td><td>Elevul compară cele trei cazuri documentate după sursa biasului și propune câte o măsură de corectare.</td></tr>
+        <tr><td>L8</td><td>Elevul sortează exemple date pe cele patru categorii de risc din AI Act, cu suport vizual.</td><td>Elevul analizează în ce categorie de risc s-ar încadra un sistem IA întâlnit în viața de zi cu zi și argumentează.</td></tr>
+        <tr><td>L9</td><td>Scenariile se rezolvă cu întrebări ajutătoare; jurnalul de utilizare IA are o variantă scurtă.</td><td>Elevul redactează o propunere de reguli ale clasei privind utilizarea IA la teme.</td></tr>
+        <tr><td>L10</td><td>Timp suplimentar la Partea A; planul de recuperare și reluarea testului; din Partea B se poate cere doar itemul B1.</td><td>Ambii itemi din Partea B, evaluați de profesor pe baza descriptorilor.</td></tr>
+      </tbody>
+    </table></div>
   </section>
 
   <section class="lesson-section">
@@ -2598,9 +2617,9 @@ licențiat sub CC BY-NC-SA 4.0.</pre>
     <div class="outcomes">
       <h3>📌 Rezultate ale învățării:</h3>
       <ul>
-        <li><strong>RÎ 1.1.</strong> Defini conceptele de IA, ML, deep learning, LLM.</li>
-        <li><strong>RÎ 1.2.</strong> Identifica exemple concrete pentru fiecare categorie.</li>
-        <li><strong>RÎ 1.3.</strong> Explica diferența între IA narrow și AGI (general).</li>
+        <li><strong>RÎ 1.1.</strong> Definește conceptele de IA, ML, deep learning, LLM.</li>
+        <li><strong>RÎ 1.2.</strong> Identifică exemple concrete pentru fiecare categorie.</li>
+        <li><strong>RÎ 1.3.</strong> Explică diferența între IA narrow și AGI (general).</li>
       </ul>
       <p style="font-size: 0.85rem; color: var(--text-muted); margin: 8px 0 0;">Acoperă: <strong>CS 1.1</strong></p>
     </div>
@@ -2824,9 +2843,9 @@ licențiat sub CC BY-NC-SA 4.0.</pre>
     <div class="outcomes">
       <h3>📌 Rezultate ale învățării:</h3>
       <ul>
-        <li><strong>RÎ 2.1.</strong> Defini conceptul de tokenizare în limbaj natural.</li>
-        <li><strong>RÎ 2.2.</strong> Explica mecanismul de predicție a următorului token.</li>
-        <li><strong>RÎ 2.3.</strong> Discuta limitele „înțelegerii” la LLM-uri (papagal stocastic).</li>
+        <li><strong>RÎ 2.1.</strong> Definește conceptul de tokenizare în limbaj natural.</li>
+        <li><strong>RÎ 2.2.</strong> Explică mecanismul de predicție a următorului token.</li>
+        <li><strong>RÎ 2.3.</strong> Discută limitele „înțelegerii” la LLM-uri (papagal stocastic).</li>
       </ul>
       <p style="font-size: 0.85rem; color: var(--text-muted); margin: 8px 0 0;">Acoperă: <strong>CS 1.2</strong></p>
     </div>
@@ -3044,9 +3063,9 @@ licențiat sub CC BY-NC-SA 4.0.</pre>
     <div class="outcomes">
       <h3>📌 Rezultate ale învățării:</h3>
       <ul>
-        <li><strong>RÎ 3.1.</strong> Construi prompt-uri eficiente folosind cele 4 ingrediente.</li>
-        <li><strong>RÎ 3.2.</strong> Evalua calitatea unui prompt (comparativ slab/bun).</li>
-        <li><strong>RÎ 3.3.</strong> Aplica principiile de utilizare responsabilă a IA.</li>
+        <li><strong>RÎ 3.1.</strong> Construiește prompt-uri eficiente folosind cele 4 ingrediente.</li>
+        <li><strong>RÎ 3.2.</strong> Evaluează calitatea unui prompt (comparativ slab/bun).</li>
+        <li><strong>RÎ 3.3.</strong> Aplică principiile de utilizare responsabilă a IA.</li>
       </ul>
       <p style="font-size: 0.85rem; color: var(--text-muted); margin: 8px 0 0;">Acoperă: <strong>CS 2.1</strong></p>
     </div>
@@ -3226,8 +3245,8 @@ Acum pentru cuvântul: "rapid"</div>
     <div class="outcomes">
       <h3>📌 Rezultate ale învățării:</h3>
       <ul>
-        <li><strong>RÎ 4.1.</strong> Defini conceptul de halucinație IA.</li>
-        <li><strong>RÎ 4.2.</strong> Aplica strategii de verificare la outputul IA.</li>
+        <li><strong>RÎ 4.1.</strong> Definește conceptul de halucinație IA.</li>
+        <li><strong>RÎ 4.2.</strong> Aplică strategii de verificare la outputul IA.</li>
         <li><strong>RÎ 4.3.</strong> Recunoaște zonele de risc crescut (citate, statistici, persoane, surse).</li>
       </ul>
       <p style="font-size: 0.85rem; color: var(--text-muted); margin: 8px 0 0;">Acoperă: <strong>CS 2.2</strong></p>
@@ -3526,9 +3545,9 @@ Acum pentru cuvântul: "rapid"</div>
     <div class="outcomes">
       <h3>📌 Rezultate ale învățării:</h3>
       <ul>
-        <li><strong>RÎ 6.1.</strong> Defini conceptul de deepfake și conținut sintetic.</li>
-        <li><strong>RÎ 6.2.</strong> Identifica semnalele de alarmă pentru imagini/voci/video sintetice.</li>
-        <li><strong>RÎ 6.3.</strong> Aplica un protocol de verificare în situații cu mize materiale.</li>
+        <li><strong>RÎ 6.1.</strong> Definește conceptul de deepfake și conținut sintetic.</li>
+        <li><strong>RÎ 6.2.</strong> Identifică semnalele de alarmă pentru imagini/voci/video sintetice.</li>
+        <li><strong>RÎ 6.3.</strong> Aplică un protocol de verificare în situații cu mize materiale.</li>
       </ul>
       <p style="font-size: 0.85rem; color: var(--text-muted); margin: 8px 0 0;">Acoperă: <strong>CS 3.1</strong></p>
     </div>
@@ -3707,8 +3726,8 @@ Acum pentru cuvântul: "rapid"</div>
     <div class="outcomes">
       <h3>📌 Rezultate ale învățării:</h3>
       <ul>
-        <li><strong>RÎ 7.1.</strong> Defini biasul algoritmic și identifica sursele lui.</li>
-        <li><strong>RÎ 7.2.</strong> Analiza cazuri reale de bias și impactul lor social.</li>
+        <li><strong>RÎ 7.1.</strong> Definește biasul algoritmic și identifică sursele lui.</li>
+        <li><strong>RÎ 7.2.</strong> Analizează cazuri reale de bias și impactul lor social.</li>
       </ul>
       <p style="font-size: 0.85rem; color: var(--text-muted); margin: 8px 0 0;">Acoperă: <strong>CS 3.2</strong></p>
     </div>
@@ -3901,7 +3920,7 @@ Acum pentru cuvântul: "rapid"</div>
       <ul>
         <li><strong>RÎ 8.1.</strong> Cunoaște drepturile GDPR aplicabile la interacțiunea cu IA.</li>
         <li><strong>RÎ 8.2.</strong> Distinge categoriile de risc din AI Act.</li>
-        <li><strong>RÎ 8.3.</strong> Analiza implicațiile juridice ale antrenării IA pe conținut protejat de copyright.</li>
+        <li><strong>RÎ 8.3.</strong> Analizează implicațiile juridice ale antrenării IA pe conținut protejat de copyright.</li>
       </ul>
       <p style="font-size: 0.85rem; color: var(--text-muted); margin: 8px 0 0;">Acoperă: <strong>CS 4.1</strong></p>
     </div>
@@ -4111,8 +4130,8 @@ Acum pentru cuvântul: "rapid"</div>
       <h3>📌 Rezultate ale învățării:</h3>
       <ul>
         <li><strong>RÎ 9.1.</strong> Distinge scenarii etice vs neetice de utilizare IA în școală.</li>
-        <li><strong>RÎ 9.2.</strong> Aplica principii de integritate academică.</li>
-        <li><strong>RÎ 9.3.</strong> Cita corect colaborarea cu IA.</li>
+        <li><strong>RÎ 9.2.</strong> Aplică principii de integritate academică.</li>
+        <li><strong>RÎ 9.3.</strong> Citează corect colaborarea cu IA.</li>
       </ul>
       <p style="font-size: 0.85rem; color: var(--text-muted); margin: 8px 0 0;">Acoperă: <strong>CS 4.2</strong></p>
     </div>
